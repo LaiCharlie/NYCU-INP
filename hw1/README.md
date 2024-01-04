@@ -102,8 +102,7 @@ This lab aims to practice simple packet analysis using `tcpdump` (or `wireshark`
 
 If you have network connection issue with our challenge server, you can download the server binary from [here](https://inp.zoolab.org/netprog/lab01/udpflag_release), and run it in your Linux docker using the command
 
-```bash
-sudo ./udpflag_release 10495
+```bash sudo ./udpflag_release 10495 ```
 
 *Danger:* You need root permission to run the server program.
 
@@ -113,7 +112,6 @@ If everything is fine, the server should only display a single message `server: 
 
 If you have successfully invoked the server, you should be able to connect to the server using the command:
 
-```bash
-nc -u 127.0.0.1 10495
+```bash nc -u 127.0.0.1 10495 ```
 
 and the behavior should be the same as the remote challenge server.
