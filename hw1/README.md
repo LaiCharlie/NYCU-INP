@@ -113,15 +113,12 @@ The last parameter determines whether you run the test cases against the ***ligh
 1. [10pts] Your server returns status code 501 as expected.
 
 1. [10pts] Your server passes the [hidden test cases](https://drive.google.com/file/d/1FdcIP5-5A9pcnDnIOqSuL-cKVzZ8_T3i/view?usp=sharing) from the TAs.
+ 
  :::info
  Please download the compressed file, unzip it, and perform the following two steps:
-
  1. Move the entire &#34;hidden&#34; folder to the &#34;data&#34; folder
  2. Move the file &#34;run_hidden.sh&#34; to the &#34;testcase&#34; folder
-
  Afterward, you can use &#34;run_hidden.sh&#34; to run the hidden test cases.
-
-
  If facing permission error, please follow the following steps:
  1. remove`ro`in `line 43` and `line 44` in docker-compose.yml
  2. run the commands below:
