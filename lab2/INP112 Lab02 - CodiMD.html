@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://md.zoolab.org/s/AiG_bsYvR -->
+<html lang="zh-TW"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    
+    
+    <meta name="description" content="# INP112 Lab02  Date: ~~2023-10-05~~2023-10-12  [TOC]  # Handling Binary Formats  ## Description  Th">
+    
+    <title>INP112 Lab02 - CodiMD</title>
+    <link rel="icon" type="image/png" href="https://md.zoolab.org/favicon.png">
+    <link rel="apple-touch-icon" href="https://md.zoolab.org/apple-touch-icon.png">
+  
+    <link rel="stylesheet" href="./INP112 Lab02 - CodiMD_files/emojify.min.css">
+    <link rel="stylesheet" href="./INP112 Lab02 - CodiMD_files/font.css">
+    <link rel="stylesheet" href="./INP112 Lab02 - CodiMD_files/fork-awesome.min.css">
+    <link href="./INP112 Lab02 - CodiMD_files/pretty-styles-pack.css" rel="stylesheet"><link href="./INP112 Lab02 - CodiMD_files/pretty-styles.css" rel="stylesheet"><link href="./INP112 Lab02 - CodiMD_files/pretty.css" rel="stylesheet">
+  
+<style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none; box-sizing: content-box}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_test {font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
+.MathJax_test.mjx-test-display {display: table!important}
+.MathJax_test.mjx-test-inline {display: inline!important; margin-right: -1px}
+.MathJax_test.mjx-test-default {display: block!important; clear: both}
+.MathJax_ex_box {display: inline-block!important; position: absolute; overflow: hidden; min-height: 0; max-height: none; padding: 0; border: 0; margin: 0; width: 1px; height: 60ex}
+.MathJax_em_box {display: inline-block!important; position: absolute; overflow: hidden; min-height: 0; max-height: none; padding: 0; border: 0; margin: 0; width: 1px; height: 60em}
+.mjx-test-inline .MathJax_left_box {display: inline-block; width: 0; float: left}
+.mjx-test-inline .MathJax_right_box {display: inline-block; width: 0; float: right}
+.mjx-test-display .MathJax_right_box {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+<body style=""><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+    <div class="ui-infobar container-fluid unselectable hidden-print">
+        <small>
+            <span>
+                
+                    <span class="ui-lastchangeuser"> <i class="ui-user-icon small" style="background-image: url(https://www.gravatar.com/avatar/ea2a04899e684c8977b00c1cfb8b4686?s=96);" data-toggle="tooltip" data-placement="right" title="" data-original-title="inp112"></i></span>
+                
+                &nbsp;<span class="text-uppercase ui-status-lastchange">changed</span>
+                <span class="ui-lastchange text-uppercase" data-createtime="Thu Sep 28 2023 02:38:39 GMT+0000 (Coordinated Universal Time)" data-updatetime="Sat Oct 07 2023 04:38:51 GMT+0000 (Coordinated Universal Time)" title="Sat, Oct 7, 2023 12:38 PM">3 months ago</span>
+            </span>
+            <span class="pull-right">442 views <a href="https://md.zoolab.org/s/AiG_bsYvR/edit" class="ui-edit" title="Edit this note"><i class="fa fa-fw fa-pencil"></i></a></span>
+            <br>
+            
+        </small>
+    </div>
+    <div id="doc" class="container markdown-body"><h1 class="" id="INP112-Lab02"><a class="anchor hidden-xs" href="https://md.zoolab.org/s/AiG_bsYvR#INP112-Lab02" title="INP112-Lab02" smoothhashscroll=""><i class="fa fa-link"></i></a>INP112 Lab02</h1>
+<p>Date: <s>2023-10-05</s>2023-10-12</p>
+<p></p><div class="toc"><ul>
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#INP112-Lab02" title="INP112 Lab02" smoothhashscroll="">INP112 Lab02</a></li>
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#Handling-Binary-Formats" title="Handling Binary Formats" smoothhashscroll="">Handling Binary Formats</a><ul>
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#Description" title="Description" smoothhashscroll="">Description</a></li>
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#Demonstration" title="Demonstration" smoothhashscroll="">Demonstration</a></li>
+</ul>
+</li>
+</ul>
+</div><p></p>
+<h1 class="" id="Handling-Binary-Formats"><a class="anchor hidden-xs" href="https://md.zoolab.org/s/AiG_bsYvR#Handling-Binary-Formats" title="Handling-Binary-Formats" smoothhashscroll=""><i class="fa fa-link"></i></a>Handling Binary Formats</h1>
+<h2 class="" id="Description"><a class="anchor hidden-xs" href="https://md.zoolab.org/s/AiG_bsYvR#Description" title="Description" smoothhashscroll=""><i class="fa fa-link"></i></a>Description</h2>
+<p>This lab aims to practice handling binary formatted data structures and files. Please follow the steps below to complete this lab.</p>
+<ol>
+<li class="">
+<p>Please download a challenge file from this URL:</p>
+<pre><code>https://inp.zoolab.org/binflag/challenge?id=&lt;your-student-id&gt;
+</code></pre>
+<p>You can use tools like <code>wget</code> or <code>curl</code> to download your own challenge file. Remember to use your student id to download the file.</p>
+</li>
+</ol>
+<!--
+    To simplify the download process, you may fill this form and click submit to download the challenge file.
+
+&lt;form action="https://inp.zoolab.org/binflag/challenge" method="get"&gt;
+    &lt;label for="id"&gt;Student ID:&lt;/label&gt;
+    &lt;input type="text" name="id"/&gt;
+    &lt;input type="submit"/&gt;
+&lt;/form&gt;
+-->
+<ol start="2">
+<li class="">
+<p>The downloaded challenge file is a customized file with the following file formats. It is composed of a file header, a number of data blocks, and the flag information. You can reconstruct a <em><strong>dictionary file</strong></em> <span class="mathjax"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 0.873em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.72em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.642em, 1000.72em, 2.615em, -999.997em); top: -2.456em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: STIXGeneral-Italic;">𝐷</span></span><span style="display: inline-block; width: 0px; height: 2.462em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi></math></span></span><script type="math/tex" id="MathJax-Element-1">D</script></span> using the blocks in the challenge file. You can then retrieve the flag hidden in <span class="mathjax"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-4" style="width: 0.873em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.72em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.642em, 1000.72em, 2.615em, -999.997em); top: -2.456em; left: 0em;"><span class="mrow" id="MathJax-Span-5"><span class="mi" id="MathJax-Span-6" style="font-family: STIXGeneral-Italic;">𝐷</span></span><span style="display: inline-block; width: 0px; height: 2.462em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi></math></span></span><script type="math/tex" id="MathJax-Element-2">D</script></span> using the flag information structure. Please read the formats carefully. A sample figure to illustrate the layout of the challenge file is as follows.</p>
+<img src="./INP112 Lab02 - CodiMD_files/lab02_binflag.png" alt="drawing" width="60%">
+</li>
+<li class="">
+<p>File header: The file header is defined using the structure:</p>
+<pre><code class="c hljs"><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> {</span>
+    <span class="hljs-keyword">uint64_t</span> magic;     <span class="hljs-comment">/* 'BINFLAG\x00' */</span>
+    <span class="hljs-keyword">uint32_t</span> datasize;  <span class="hljs-comment">/* in big-endian */</span>
+    <span class="hljs-keyword">uint16_t</span> n_blocks;  <span class="hljs-comment">/* in big-endian */</span>
+    <span class="hljs-keyword">uint16_t</span> zeros;
+} __attribute((packed)) <span class="hljs-keyword">binflag_header_t</span>;
+</code></pre>
+<p>The <code>magic</code> is a fixed string of value <code>BINFLAG\x00</code>. The <code>datasize</code> is the total size of the dictionary file <span class="mathjax"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-7" style="width: 0.873em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.72em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.642em, 1000.72em, 2.615em, -999.997em); top: -2.456em; left: 0em;"><span class="mrow" id="MathJax-Span-8"><span class="mi" id="MathJax-Span-9" style="font-family: STIXGeneral-Italic;">𝐷</span></span><span style="display: inline-block; width: 0px; height: 2.462em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi></math></span></span><script type="math/tex" id="MathJax-Element-3">D</script></span>. The <code>n_blocks</code> is the total number of blocks in the challenge file. Note that some blocks might be bad blocks, i.e., having an incorrect checksum. You should not consider bad blocks when reconstructing <span class="mathjax"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-10" style="width: 0.873em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.72em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.642em, 1000.72em, 2.615em, -999.997em); top: -2.456em; left: 0em;"><span class="mrow" id="MathJax-Span-11"><span class="mi" id="MathJax-Span-12" style="font-family: STIXGeneral-Italic;">𝐷</span></span><span style="display: inline-block; width: 0px; height: 2.462em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi></math></span></span><script type="math/tex" id="MathJax-Element-4">D</script></span>.</p>
+</li>
+<li class="">
+<p>Based on the <code>n_blocks</code> defined in the file header, there are <code>n_blocks</code> data blocks placed right after the file header. The data structure for each data block is as follows.</p>
+<pre><code class="c hljs"><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> {</span>
+    <span class="hljs-keyword">uint32_t</span> offset;        <span class="hljs-comment">/* in big-endian */</span>
+    <span class="hljs-keyword">uint16_t</span> cksum;         <span class="hljs-comment">/* XOR'ed results of each 2-byte unit in payload */</span>
+    <span class="hljs-keyword">uint16_t</span> length;        <span class="hljs-comment">/* ranges from 1KB - 3KB, in big-endian */</span>
+    <span class="hljs-keyword">uint8_t</span>  payload[<span class="hljs-number">0</span>];
+} __attribute((packed)) <span class="hljs-keyword">block_t</span>;
+</code></pre>
+<p>The <code>offset</code> is the offset of the payload in <span class="mathjax"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-13" style="width: 0.873em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.72em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.642em, 1000.72em, 2.615em, -999.997em); top: -2.456em; left: 0em;"><span class="mrow" id="MathJax-Span-14"><span class="mi" id="MathJax-Span-15" style="font-family: STIXGeneral-Italic;">𝐷</span></span><span style="display: inline-block; width: 0px; height: 2.462em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi></math></span></span><script type="math/tex" id="MathJax-Element-5">D</script></span>. The <code>length</code> is the length of the <code>payload</code>. By using the <code>offset</code> and the <code>length</code> of each data block, you have to copy the payload of a data block to the corresponding offset in <span class="mathjax"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-16" style="width: 0.873em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.72em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.642em, 1000.72em, 2.615em, -999.997em); top: -2.456em; left: 0em;"><span class="mrow" id="MathJax-Span-17"><span class="mi" id="MathJax-Span-18" style="font-family: STIXGeneral-Italic;">𝐷</span></span><span style="display: inline-block; width: 0px; height: 2.462em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi></math></span></span><script type="math/tex" id="MathJax-Element-6">D</script></span>. Note that you have to check the validity of a data block by using the <code>cksum</code> field. In case a data block does not pass the check, you should not use the bad data block.</p>
+</li>
+<li class="">
+<p>The flag information is placed right after all data blocks. The data structure for the flag information is as follows.</p>
+<pre><code class="c hljs"><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> {</span>
+   <span class="hljs-keyword">uint16_t</span> length;        <span class="hljs-comment">/* length of the offset array, in big-endian */</span>
+   <span class="hljs-keyword">uint32_t</span> offset[<span class="hljs-number">0</span>];     <span class="hljs-comment">/* offset of the flags, in big-endian */</span>
+} __attribute((packed)) <span class="hljs-keyword">flag_t</span>;
+</code></pre>
+<p>With the flag information and content of the resulting dictionary file <span class="mathjax"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-19" style="width: 0.873em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.72em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.642em, 1000.72em, 2.615em, -999.997em); top: -2.456em; left: 0em;"><span class="mrow" id="MathJax-Span-20"><span class="mi" id="MathJax-Span-21" style="font-family: STIXGeneral-Italic;">𝐷</span></span><span style="display: inline-block; width: 0px; height: 2.462em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi></math></span></span><script type="math/tex" id="MathJax-Element-7">D</script></span>,<br>
+you should be able to retrieve the flag by using the offset values in the <code>offset</code> array. Each offset in the flag information points to <em><strong>two successive flag characters</strong></em> in <span class="mathjax"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-8-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-22" style="width: 0.873em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.72em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.642em, 1000.72em, 2.615em, -999.997em); top: -2.456em; left: 0em;"><span class="mrow" id="MathJax-Span-23"><span class="mi" id="MathJax-Span-24" style="font-family: STIXGeneral-Italic;">𝐷</span></span><span style="display: inline-block; width: 0px; height: 2.462em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.941em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi></math></span></span><script type="math/tex" id="MathJax-Element-8">D</script></span>. By concatenating the flag characters pointed by the offsets in order, you should get the complete flag.</p>
+</li>
+<li class="">
+<p>Convert your flag into a hexadecimal string and send it to the flag verification service at:</p>
+<pre><code>https://inp.zoolab.org/binflag/verify?v=&lt;your-flag-in-hexadecimal&gt;
+</code></pre>
+<p>Suppose the FLAG is <code>FLAG|aaa|bbb|ccc</code>. You should convert the flag to <code>464c41477c6161617c6262627c636363</code> and submit it to our flag verification service. Note that the <code>FLAG|aaa|bbb|ccc</code> is not a valid flag and cannot pass the flag verification service’s check. Here is another demo flag that can pass the verification.</p>
+<pre><code>464c41477c87b30fbafbbdbcf6188f00e4291c8aa1
+</code></pre>
+</li>
+<li class="">
+<p>The regular flag extracted from a downloaded challenge server is in the format.</p>
+<pre><code>FLAG|id|datetime|random-bytes
+</code></pre>
+<p>You may play with our demo challenge file from <a href="https://inp.zoolab.org/netprog/lab02/demo2.bin" target="_blank" rel="noopener">here (demo2.bin)</a>.</p>
+</li>
+<li class="">
+<p>You have to implement the challenge file decoder program in C or C++.</p>
+</li>
+<li class="">
+<p>A minimized demo file can be downloaded from <a href="https://inp.zoolab.org/netprog/lab02/demo1.bin" target="_blank" rel="noopener">here (demo1.bin)</a>. It has only 286 bytes, and the hex dump of this file is as follows.</p>
+<pre><code>OFF  &lt;file header&gt;
+000  42 49 4e 46 4c 41 47 00  00 00 00 80 00 06 00 00  |BINFLAG.........|
+     &lt;blocks (6)&gt;
+010  00 00 00 00 91 56 00 20  75 4c f9 5b 17 aa 1e e8  |.....V. uL.[....|
+020  4d 8f 3c d0 0a be bd 9c  23 0b 3e 7b 24 3c d1 8b  |M.&lt;.....#.&gt;{$&lt;..|
+030  f6 50 14 42 ca eb 12 40  00 00 00 18 09 54 00 10  |.P.B...@.....T..|
+040  d3 bd 5f d7 6a ee 8a fd  39 ec 81 99 66 1a da 82  |.._.j...9...f...|
+050  00 00 00 40 3b bb 00 30  46 4c 27 19 38 77 08 ad  |...@;..0FL'.8w..|
+060  7a 80 36 c0 fc 9c 70 7f  ca bf 07 60 e6 da a9 a2  |z.6...p....`....|
+070  7b 28 fb 6f fb 4b 9c 0b  f0 a4 41 47 20 0b a0 a1  |{(.o.K....AG ...|
+080  70 a1 6c 60 03 0b e1 b4  00 00 00 3e cd bb 00 20  |p.l`.......&gt;... |
+090  c2 dc b3 1a 43 e0 fe a4  94 88 67 27 65 ca e0 d6  |....C.....g'e...|
+0a0  0d 1e bc 79 aa 0a f4 41  e6 94 c8 25 f2 ec 6d c9  |...y...A...%..m.|
+0b0  00 00 00 70 19 42 00 10  30 c2 1c ef 5e 04 05 63  |...p.B..0...^..c|
+0c0  1d 44 94 a1 63 26 84 cb  00 00 00 20 5e 4e 00 20  |.D..c&amp;..... ^N. |
+0d0  4a 25 49 c9 ac fb e5 90  5b 3a 6b f2 7a 01 02 9c  |J%I.....[:k.z...|
+0e0  05 3f be 16 77 05 0f 30  cf dd 7c 78 6f 4d 43 68  |.?..w..0..|xoMCh|
+     &lt;flag information&gt;
+0f0  00 0b 00 00 00 40 00 00  00 62 00 00 00 3a 00 00  |.....@...b...:..|
+100  00 56 00 00 00 1a 00 00  00 0a 00 00 00 5c 00 00  |.V...........\..|
+110  00 5e 00 00 00 0e 00 00  00 08 00 00 00 60        |.^...........`|
+</code></pre>
+<p>The challenge file contains 6 blocks, and the dictionary file reconstructed from the challenge file is 128 bytes. The flag information indicates that there are 11 offsets in the sequence [64, 98, 58, 86, 26, 10, 92, 94, 14, 8, 96]. The flag hidden in the challenge file is <code>464c41477c78a9a214423cd0fb4b9c0bbd9c4d8ff0a4</code> (or a byte string <code>FLAG|x\xa9\xa2\x14B&lt;\xd0\xfbK\x9c\x0b\xbd\x9cM\x8f\xf0\xa4</code>).</p>
+</li>
+</ol>
+<h2 class="" id="Demonstration"><a class="anchor hidden-xs" href="https://md.zoolab.org/s/AiG_bsYvR#Demonstration" title="Demonstration" smoothhashscroll=""><i class="fa fa-link"></i></a>Demonstration</h2>
+<ol>
+<li class="">
+<p>[20%] You can decode the flag from the <code>demo2.bin</code> file and pass the verification service’s check.</p>
+</li>
+<li class="">
+<p>[70%] You can decode the flag downloaded from the challenge server and pass the verification service’s check.</p>
+</li>
+<li class="">
+<p>[10%] You can implement a single command to a) download a challenge file from the server using your id, b) decode the flag, and c) verify the flag. You can implement a shell script to perform the automation, but step (b) should be performed by the program you implemented in (2).</p>
+</li>
+</ol>
+</div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display: none; right: 468.5px;">
+        <div class="pull-right dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="https://md.zoolab.org/s/AiG_bsYvR#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel"><div class="toc"><ul class="nav">
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#INP112-Lab02" title="INP112 Lab02" smoothhashscroll="">INP112 Lab02</a></li>
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#Handling-Binary-Formats" title="Handling Binary Formats" smoothhashscroll="">Handling Binary Formats</a><ul class="nav">
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#Description" title="Description" smoothhashscroll="">Description</a></li>
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#Demonstration" title="Demonstration" smoothhashscroll="">Demonstration</a></li>
+</ul>
+</li>
+</ul>
+</div></ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print affix" data-spy="affix" style="left: 1201.5px;"><div class="toc"><ul class="nav">
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#INP112-Lab02" title="INP112 Lab02" smoothhashscroll="">INP112 Lab02</a></li>
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#Handling-Binary-Formats" title="Handling Binary Formats" smoothhashscroll="">Handling Binary Formats</a><ul class="nav">
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#Description" title="Description" smoothhashscroll="">Description</a></li>
+<li><a href="https://md.zoolab.org/s/AiG_bsYvR#Demonstration" title="Demonstration" smoothhashscroll="">Demonstration</a></li>
+</ul>
+</li>
+</ul>
+</div></div>
+    
+
+
+
+<script src="./INP112 Lab02 - CodiMD_files/mathjax-config-extra.js"></script>
+
+<script src="./INP112 Lab02 - CodiMD_files/MathJax.js" defer=""></script>
+<script src="./INP112 Lab02 - CodiMD_files/TeX-AMS-MML_HTMLorMML.js" defer=""></script>
+<script src="./INP112 Lab02 - CodiMD_files/Safe.js" defer=""></script>
+<script src="./INP112 Lab02 - CodiMD_files/config"></script><script src="./INP112 Lab02 - CodiMD_files/common.1349a0316c4d8448fc8a.js" defer="defer"></script><script src="./INP112 Lab02 - CodiMD_files/pretty-pack.7d6d83ca1bdc20fcbeac.js" defer="defer"></script>
+
+
+
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; min-width: 0px; max-width: none; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: STIXSizeOneSym, sans-serif;"></div></div></body></html>
