@@ -146,8 +146,8 @@ The last parameter determines whether you run the test cases against the ***ligh
  > If facing Chinese encoding problem for our Chinese case, please help us to replace the old folder name（一堆亂碼） to the correct Chinese folder name(中文資料夾). 
  
 
-1. [20pts] All resources listed in the `demo.html` page work in a typical browser.
+7. [20pts] All resources listed in the `demo.html` page work in a typical browser.
 
-1. [20pts] Your server passes the workload test. The score will be given based on the ranking of your implementation among all students in the class. There will be only four ranks. The top-ranked, second-ranked, third-ranked, and bottom-ranked implementations get 20pts, 15pts, 10pts, and 5pts, respectively.
+8. [20pts] Your server passes the workload test. The score will be given based on the ranking of your implementation among all students in the class. There will be only four ranks. The top-ranked, second-ranked, third-ranked, and bottom-ranked implementations get 20pts, 15pts, 10pts, and 5pts, respectively.
 
-1. [20pts] If your server supports SSL/TLS and passes most of the test cases listed above.
+9. [20pts] If your server supports SSL/TLS and passes most of the test cases listed above.
