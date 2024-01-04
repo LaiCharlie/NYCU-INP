@@ -104,3 +104,16 @@ If you have network connection issue with our challenge server, you can download
 
 ```bash
 sudo ./udpflag_release 10495
+
+*Danger:* You need root permission to run the server program.
+
+Please note that you need to grant execution permission to the downloaded executable. If you are working with an Apple chip Mac, you have to install Rosetta (x86_64 emulation) to run this executable in your Linux Docker.
+
+If everything is fine, the server should only display a single message `server: running on port 10495`.
+
+If you have successfully invoked the server, you should be able to connect to the server using the command:
+
+```bash
+nc -u 127.0.0.1 10495
+
+and the behavior should be the same as the remote challenge server.
