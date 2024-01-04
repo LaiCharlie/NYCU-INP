@@ -1,0 +1,2878 @@
+Server response : 
+Server response : Given your current position at '*', please walk from '*' to 'E'.
+Server response : Available commands:
+Server response :   'W' walk upward, 'S' walk downward, 'A' walk left, 'D' walk right.
+Server response : Note1: Size of the maze = 101 x 101
+Server response : Note2: View port area = 11 x 7
+Server response : 
+Server response :    34: ####.#####.
+Server response :    35: .....#...#.
+Server response :    36: .#####.####
+Server response :    37: ...#.*.....
+Server response :    38: .#.#.######
+Server response :    39: .#.#.......
+Server response :    40: .#.########
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ddddd
+Server response : 
+Server response :    34: #####.###.#
+Server response :    35: #...#...#.#
+Server response :    36: #.#####.#.#
+Server response :    37: .....*..#.#
+Server response :    38: #########.#
+Server response :    39: ........#.#
+Server response :    40: #######.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ddwwaaw
+Server response : 
+Server response :    31: #.....#...#
+Server response :    32: #######.###
+Server response :    33: ......#...#
+Server response :    34: #####*###.#
+Server response :    35: #...#...#.#
+Server response :    36: #.#####.#.#
+Server response :    37: ........#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+waaaaa
+Server response : 
+Server response :    30: .#.###.###.
+Server response :    31: .....#.....
+Server response :    32: .##########
+Server response :    33: ...#.*.....
+Server response :    34: ####.#####.
+Server response :    35: .....#...#.
+Server response :    36: .#####.####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+assaaaa
+Server response : 
+Server response :    32: ###.#.#####
+Server response :    33: #.#.#...#..
+Server response :    34: #.#.#####.#
+Server response :    35: #.#.#*....#
+Server response :    36: #.#.#.#####
+Server response :    37: #.#.#...#..
+Server response :    38: #.#.#.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddsss
+Server response : 
+Server response :    37: #.#...#....
+Server response :    38: #.#.#.#.###
+Server response :    39: ..#.#.#....
+Server response :    40: ###.#*#####
+Server response :    41: ..#.#.#....
+Server response :    42: #.###.#.###
+Server response :    43: ......#....
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sssaaaaa
+Server response : 
+Server response :    40: .#.#.###.#.
+Server response :    41: ...#...#.#.
+Server response :    42: ######.###.
+Server response :    43: .#...*.....
+Server response :    44: .#.########
+Server response :    45: ...#.......
+Server response :    46: ####.######
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaassaa
+Server response : 
+Server response :    42: ###.#######
+Server response :    43: #...#.#....
+Server response :    44: #.###.#.###
+Server response :    45: #...#*..#..
+Server response :    46: ###.#####.#
+Server response :    47: ..#.....#.#
+Server response :    48: #.#####.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwssddwwddddwwaaw
+Server response : 
+Server response :    37: ..#.#.#.#..
+Server response :    38: #.#.#.#.#.#
+Server response :    39: ..#.#...#.#
+Server response :    40: #.#.#*###.#
+Server response :    41: #...#...#.#
+Server response :    42: #######.###
+Server response :    43: #.#........
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddwwwwwww
+Server response : 
+Server response :    29: #...#...#.#
+Server response :    30: ###.###.#.#
+Server response :    31: ..#...#....
+Server response :    32: #.###*#.###
+Server response :    33: ..#.#.#...#
+Server response :    34: ###.#.#####
+Server response :    35: ..#.#.#....
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+waawwaa
+Server response : 
+Server response :    26: #####.#.#.#
+Server response :    27: ....#.#.#..
+Server response :    28: ###.#.#.###
+Server response :    29: ..#.#*..#..
+Server response :    30: #.#.###.###
+Server response :    31: ..#...#...#
+Server response :    32: #####.###.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+www
+Server response : 
+Server response :    23: #...#...#.#
+Server response :    24: #.#.###.#.#
+Server response :    25: #.#...#.#.#
+Server response :    26: #####*#.#.#
+Server response :    27: ....#.#.#..
+Server response :    28: ###.#.#.###
+Server response :    29: ..#.#...#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+waawwaassww
+Server response : 
+Server response :    20: #########.#
+Server response :    21: ........#.#
+Server response :    22: #####.###.#
+Server response :    23: ....#*..#..
+Server response :    24: ###.#.#.###
+Server response :    25: #...#.#...#
+Server response :    26: #.#######.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwddaaaaaaa
+Server response : 
+Server response :    18: .#.#.#.#.##
+Server response :    19: .#.#.#.#...
+Server response :    20: ##.#.######
+Server response :    21: ...#.*.....
+Server response :    22: ##########.
+Server response :    23: .#.......#.
+Server response :    24: .#.#####.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+awww
+Server response : 
+Server response :    15: ....#.#...#
+Server response :    16: #####.###.#
+Server response :    17: ..#.....#.#
+Server response :    18: #.#.#*#.#.#
+Server response :    19: ..#.#.#.#..
+Server response :    20: ###.#.#####
+Server response :    21: ....#......
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddsswwaaaassssaaa
+Server response : 
+Server response :    18: ######.#.#.
+Server response :    19: ...#...#.#.
+Server response :    20: ##.#####.#.
+Server response :    21: .#...*...#.
+Server response :    22: .##########
+Server response :    23: .......#...
+Server response :    24: ####.#.#.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaawwaa
+Server response : 
+Server response :    16: ###.#######
+Server response :    17: ..#........
+Server response :    18: #.#########
+Server response :    19: #....*..#..
+Server response :    20: #######.###
+Server response :    21: ....#.#....
+Server response :    22: ###.#.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaaawwa
+Server response : 
+Server response :    14: ##.#.#.#.#.
+Server response :    15: ...#...#.#.
+Server response :    16: .#.#####.##
+Server response :    17: .#.#.*.#...
+Server response :    18: .###.#.####
+Server response :    19: .#...#.....
+Server response :    20: .#.########
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+assaas
+Server response : 
+Server response :    17: #.#.#.#...#
+Server response :    18: ###.###.#.#
+Server response :    19: ....#...#..
+Server response :    20: ###.#*#####
+Server response :    21: #...#.#....
+Server response :    22: #####.#.###
+Server response :    23: ....#...#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sssdd
+Server response : 
+Server response :    20: #.#.#######
+Server response :    21: ..#.#.....#
+Server response :    22: ###.#.###.#
+Server response :    23: ..#..*#.#.#
+Server response :    24: #.#####.#.#
+Server response :    25: #...#.....#
+Server response :    26: ###.#.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwddddssssaaaas
+Server response : 
+Server response :    23: ..#...#.#.#
+Server response :    24: #.#####.#.#
+Server response :    25: #...#.....#
+Server response :    26: ###.#*#####
+Server response :    27: #...#.#....
+Server response :    28: #.###.#####
+Server response :    29: #...#......
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sssddddd
+Server response : 
+Server response :    26: .#####.####
+Server response :    27: .#.....#.#.
+Server response :    28: .#####.#.#.
+Server response :    29: .....*.#.#.
+Server response :    30: ########.#.
+Server response :    31: .#.......#.
+Server response :    32: ##.###.###.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dwwaaaaddddw
+Server response : 
+Server response :    23: #.#.#......
+Server response :    24: #.#.#####.#
+Server response :    25: ....#.....#
+Server response :    26: #####*#####
+Server response :    27: #.....#.#..
+Server response :    28: #####.#.#.#
+Server response :    29: ......#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddddwwdds
+Server response : 
+Server response :    21: #.......#..
+Server response :    22: ###########
+Server response :    23: ......#....
+Server response :    24: ###.#*#.###
+Server response :    25: ....#.#...#
+Server response :    26: #####.###.#
+Server response :    27: #.#...#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sssaassd
+Server response : 
+Server response :    26: .#####.###.
+Server response :    27: .#.#...#.#.
+Server response :    28: .#.#.###.#.
+Server response :    29: .#.#.*...#.
+Server response :    30: ##.#.######
+Server response :    31: ...#.#.....
+Server response :    32: .###.#.####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dddwwssaaaasss
+Server response : 
+Server response :    29: ..#.#.....#
+Server response :    30: ###.#.#####
+Server response :    31: ....#.#....
+Server response :    32: #.###*#.###
+Server response :    33: #.....#.#.#
+Server response :    34: #######.#.#
+Server response :    35: #.....#...#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+saaaawwddwwwwssssaaaaaas
+Server response : 
+Server response :    29: ..#.......#
+Server response :    30: #.#########
+Server response :    31: ....#......
+Server response :    32: #####*###.#
+Server response :    33: ........#..
+Server response :    34: #######.###
+Server response :    35: ..#...#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddss
+Server response : 
+Server response :    32: ###.###.###
+Server response :    33: ......#....
+Server response :    34: #####.#####
+Server response :    35: #...#*#....
+Server response :    36: #.#.###.###
+Server response :    37: #.#.....#.#
+Server response :    38: #.#######.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwaaaaaaa
+Server response : 
+Server response :    30: .#####.####
+Server response :    31: .#.......#.
+Server response :    32: .#.#######.
+Server response :    33: .#...*.....
+Server response :    34: ###########
+Server response :    35: .#.....#...
+Server response :    36: ##.###.#.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaawwddddddaawwaawwddwwaawwaaa
+Server response : 
+Server response :    20: .###.###.#.
+Server response :    21: .#...#...#.
+Server response :    22: .#.#######.
+Server response :    23: .#.#.*...#.
+Server response :    24: ##.#.###.##
+Server response :    25: .#.#.#.#...
+Server response :    26: .#.#.#.###.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+asss
+Server response : 
+Server response :    23: ..#.#.....#
+Server response :    24: ###.#.###.#
+Server response :    25: ..#.#.#.#..
+Server response :    26: #.#.#*#.###
+Server response :    27: #.#...#.#..
+Server response :    28: #.#####.#.#
+Server response :    29: #...#...#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+saawwwwwwddw
+Server response : 
+Server response :    17: ..#...#.#.#
+Server response :    18: #.#.#####.#
+Server response :    19: ..#.#.....#
+Server response :    20: #.###*###.#
+Server response :    21: #.#...#...#
+Server response :    22: #.#.#######
+Server response :    23: ..#.#.....#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddddssaaddwwwww
+Server response : 
+Server response :    13: ..#.#.#.#.#
+Server response :    14: ###.###.#.#
+Server response :    15: #...#...#..
+Server response :    16: #.#.#*#.###
+Server response :    17: ..#.#.#.#..
+Server response :    18: #####.###.#
+Server response :    19: #.....#...#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddsswwww
+Server response : 
+Server response :    10: #.###.#.###
+Server response :    11: #...#.#.#..
+Server response :    12: #.#.#.#.#.#
+Server response :    13: #.#.#*#.#.#
+Server response :    14: #.###.#.#.#
+Server response :    15: ..#...#...#
+Server response :    16: #.#.#.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+www
+Server response : 
+Server response :     7: ..#.....#..
+Server response :     8: ###.###.#.#
+Server response :     9: ..#...#.#..
+Server response :    10: #.###*#.###
+Server response :    11: #...#.#.#..
+Server response :    12: #.#.#.#.#.#
+Server response :    13: #.#.#.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+waawwddddssssssssddwwwwd
+Server response : 
+Server response :     8: ##.#.###.#.
+Server response :     9: .#.#...#...
+Server response :    10: .#.###.###.
+Server response :    11: .#.#.*.#.#.
+Server response :    12: .#.#.###.#.
+Server response :    13: .#.#.#...#.
+Server response :    14: .#.#.#.#.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dwwaawwd
+Server response : 
+Server response :     4: ##.########
+Server response :     5: .#.........
+Server response :     6: .##########
+Server response :     7: ...#.*...#.
+Server response :     8: ##.#.###.#.
+Server response :     9: .#.#...#...
+Server response :    10: .#.###.###.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dddssdd
+Server response : 
+Server response :     6: #########.#
+Server response :     7: ....#...#.#
+Server response :     8: ###.#.###.#
+Server response :     9: ..#..*#...#
+Server response :    10: #.###.#.###
+Server response :    11: ..#.#.#.#..
+Server response :    12: ###.#.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssss
+Server response : 
+Server response :    10: #.###.#.###
+Server response :    11: ..#.#.#.#..
+Server response :    12: ###.#.#.#.#
+Server response :    13: #...#*#.#.#
+Server response :    14: #.#.#.#.###
+Server response :    15: #.#...#....
+Server response :    16: #.#########
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssaawwaassssddddddddssaaddwwaaaaaaaawwwwddwwssssddwwwwwwwwddaassaawwaaaassddssaassssaawwwwwwwwaaw
+Server response : 
+Server response :     3: ....#...#..
+Server response :     4: #.#####.###
+Server response :     5: #.....#....
+Server response :     6: #####*#####
+Server response :     7: ..#.....#..
+Server response :     8: ###.###.#.#
+Server response :     9: ..#...#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+waaaawwdd
+Server response : 
+Server response :     0: ###########
+Server response :     1: ........#..
+Server response :     2: #######.###
+Server response :     3: #....*#...#
+Server response :     4: #.#.#####.#
+Server response :     5: ..#.....#..
+Server response :     6: #######.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaaassa
+Server response : 
+Server response :     2: .#.########
+Server response :     3: .#.#.#.....
+Server response :     4: .#.#.#.#.##
+Server response :     5: .#.#.*.#...
+Server response :     6: .#.#.######
+Server response :     7: ...#.#...#.
+Server response :     8: ####.#.###.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+asss
+Server response : 
+Server response :     5: #.#.#...#..
+Server response :     6: #.#.#.#####
+Server response :     7: #...#.#...#
+Server response :     8: #####*#.###
+Server response :     9: ......#...#
+Server response :    10: #######.#.#
+Server response :    11: #.......#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+saaaaa
+Server response : 
+Server response :     6: ####.#.#.#.
+Server response :     7: .....#...#.
+Server response :     8: .#.#######.
+Server response :     9: .#.#.*.....
+Server response :    10: ##.#.######
+Server response :    11: .#...#.....
+Server response :    12: .#.#######.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+assaas
+Server response : 
+Server response :     9: #.#.#.#....
+Server response :    10: #.###.#.###
+Server response :    11: #...#...#..
+Server response :    12: #.#.#*#####
+Server response :    13: #.#.#.#....
+Server response :    14: ###.#.#.#.#
+Server response :    15: ..#.#.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sss
+Server response : 
+Server response :    12: #.#.#.#####
+Server response :    13: #.#.#.#....
+Server response :    14: ###.#.#.#.#
+Server response :    15: ..#.#*#.#.#
+Server response :    16: #.#.#.#.#.#
+Server response :    17: #...#.#.#..
+Server response :    18: #####.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sss
+Server response : 
+Server response :    15: ..#.#.#.#.#
+Server response :    16: #.#.#.#.#.#
+Server response :    17: #...#.#.#..
+Server response :    18: #####*#####
+Server response :    19: ....#......
+Server response :    20: ###.#######
+Server response :    21: ..#.......#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddddddssssa
+Server response : 
+Server response :    20: ######.###.
+Server response :    21: .....#.#...
+Server response :    22: ##.###.#.##
+Server response :    23: ...#.*.#.#.
+Server response :    24: .###.###.#.
+Server response :    25: ...#...#.#.
+Server response :    26: ##.###.#.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+assddssssdd
+Server response : 
+Server response :    26: ###.#.#.#.#
+Server response :    27: #.#.#...#.#
+Server response :    28: #.#.#####.#
+Server response :    29: #.#..*#...#
+Server response :    30: #.###.#.###
+Server response :    31: ....#...#..
+Server response :    32: #######.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddss
+Server response : 
+Server response :    30: ###.#.#####
+Server response :    31: ..#...#....
+Server response :    32: #####.#.###
+Server response :    33: ..#..*#....
+Server response :    34: #.#.#######
+Server response :    35: #.....#....
+Server response :    36: #######.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aassddaaaawwa
+Server response : 
+Server response :    30: ##.#.###.#.
+Server response :    31: .......#...
+Server response :    32: ##.#######.
+Server response :    33: .#.#.*.#...
+Server response :    34: .###.#.#.##
+Server response :    35: .....#.....
+Server response :    36: ###########
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+assaaaa
+Server response : 
+Server response :    32: #.#####.###
+Server response :    33: ..#...#.#..
+Server response :    34: ###.#.###.#
+Server response :    35: ....#*....#
+Server response :    36: ###########
+Server response :    37: #.........#
+Server response :    38: #.#####.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwaassaaa
+Server response : 
+Server response :    32: .#####.####
+Server response :    33: .#.....#...
+Server response :    34: ##.#####.#.
+Server response :    35: ...#.*...#.
+Server response :    36: ##.#.######
+Server response :    37: ...#.#.....
+Server response :    38: .###.#.####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+asss
+Server response : 
+Server response :    35: #...#.....#
+Server response :    36: ###.#.#####
+Server response :    37: ....#.#....
+Server response :    38: #.###*#.###
+Server response :    39: #.#.....#..
+Server response :    40: #.#.#####.#
+Server response :    41: #...#.....#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddwwddddddddaas
+Server response : 
+Server response :    35: ..#.....#..
+Server response :    36: ###########
+Server response :    37: ........#..
+Server response :    38: #####*###.#
+Server response :    39: #...#.#...#
+Server response :    40: #.#.###.###
+Server response :    41: ..#...#....
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+swwaaaaaassaaaassaa
+Server response : 
+Server response :    38: ###.#.###.#
+Server response :    39: ....#.#....
+Server response :    40: #####.#.###
+Server response :    41: ....#*..#..
+Server response :    42: ###.#.###.#
+Server response :    43: ..#.#...#.#
+Server response :    44: #.#.###.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssdds
+Server response : 
+Server response :    41: ..#...#....
+Server response :    42: #.#.###.###
+Server response :    43: #.#...#.#..
+Server response :    44: #.###*#.###
+Server response :    45: #.#.#.#...#
+Server response :    46: #.#.#.###.#
+Server response :    47: #.#...#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sssaa
+Server response : 
+Server response :    44: #.#.###.#.#
+Server response :    45: #.#.#.#.#..
+Server response :    46: #.#.#.#.###
+Server response :    47: #.#.#*..#.#
+Server response :    48: #.#.###.#.#
+Server response :    49: ..#...#.#.#
+Server response :    50: #####.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwssddsss
+Server response : 
+Server response :    47: #.#...#.#..
+Server response :    48: #.###.#.###
+Server response :    49: #...#.#.#..
+Server response :    50: ###.#*#.#.#
+Server response :    51: #...#...#.#
+Server response :    52: #.#######.#
+Server response :    53: ..#.......#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddwwwwssssaawwwwwwwwaawwwwwwddwwaaddwwddddw
+Server response : 
+Server response :    29: ..#.#.#...#
+Server response :    30: #.#.#.#.###
+Server response :    31: ..#.#.#....
+Server response :    32: #####*#####
+Server response :    33: #.....#...#
+Server response :    34: #.#####.#.#
+Server response :    35: ..#.....#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+www
+Server response : 
+Server response :    26: #.#########
+Server response :    27: ....#......
+Server response :    28: ###.#.#####
+Server response :    29: ..#.#*#...#
+Server response :    30: #.#.#.#.###
+Server response :    31: ..#.#.#....
+Server response :    32: #####.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwddddd
+Server response : 
+Server response :    24: ##.#.###.##
+Server response :    25: ...#...#...
+Server response :    26: ######.###.
+Server response :    27: .....*.#.#.
+Server response :    28: .#####.#.#.
+Server response :    29: .#...#.#.#.
+Server response :    30: .#.###.#.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssssddddaawwwwssssaaaaaawwddaassddddsswwwwwwwwaawwddwwddaaaaaa
+Server response : 
+Server response :    18: #######.###
+Server response :    19: #.....#....
+Server response :    20: #.###.#####
+Server response :    21: #...#*.....
+Server response :    22: ###.#####.#
+Server response :    23: ..#...#...#
+Server response :    24: #####.#.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwaaaassddssddssaa
+Server response : 
+Server response :    22: #.###.#####
+Server response :    23: #...#...#..
+Server response :    24: #.#####.#.#
+Server response :    25: #....*..#..
+Server response :    26: #.#########
+Server response :    27: ....#......
+Server response :    28: ###.#.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaaassddsssswwwwaaa
+Server response : 
+Server response :    24: .###.#.####
+Server response :    25: .#...#.....
+Server response :    26: ##.###.####
+Server response :    27: ...#.*...#.
+Server response :    28: .#######.#.
+Server response :    29: .......#.#.
+Server response :    30: ##.###.#.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+addwwwwddaaw
+Server response : 
+Server response :    19: #.#...#....
+Server response :    20: #####.#.###
+Server response :    21: ....#.#...#
+Server response :    22: ###.#*###.#
+Server response :    23: ..#.#...#..
+Server response :    24: ###.#.#####
+Server response :    25: #...#......
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwwaa
+Server response : 
+Server response :    16: ###.#######
+Server response :    17: ..#.......#
+Server response :    18: #.#.#.#####
+Server response :    19: ..#.#*..#..
+Server response :    20: #######.#.#
+Server response :    21: ......#.#..
+Server response :    22: #####.#.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwddddaaaaaasswww
+Server response : 
+Server response :    13: ..#.#...#..
+Server response :    14: ###.#####.#
+Server response :    15: #...#...#..
+Server response :    16: #.###*#####
+Server response :    17: #...#......
+Server response :    18: ###.#.#.###
+Server response :    19: #...#.#...#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddaassddssddssssssddddddwwaawwaawwddddssddddssaassddssaaaaaassssssaaaassssaaa
+Server response : 
+Server response :    34: .###.###.##
+Server response :    35: .#...#...#.
+Server response :    36: ##.#####.#.
+Server response :    37: ...#.*...#.
+Server response :    38: ####.#.###.
+Server response :    39: .....#.#...
+Server response :    40: ######.#.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+assaaaa
+Server response : 
+Server response :    36: #.#.###.###
+Server response :    37: ..#.....#..
+Server response :    38: #########.#
+Server response :    39: #....*....#
+Server response :    40: ###########
+Server response :    41: ..........#
+Server response :    42: #########.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaaaddddddddwwddssssddwwddwwwwddddwwddssddddwwddssddwwddwwwwddwwwwssssaassaawwaawwwwaawwddwwwwwwaawwwwd
+Server response : 
+Server response :    10: .#.#######.
+Server response :    11: ...#.......
+Server response :    12: .#######.##
+Server response :    13: .#...*.#...
+Server response :    14: .#.#.#.####
+Server response :    15: .#.#.#...#.
+Server response :    16: .#.#.###.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssddssddwwddsswwwwwwddsswwaawwaassaaaaaaddddssddaawwddwwwwddaassddssssssaassaasswwwwaawwaaaasssswwwwddssssddssaaaaaawwwwwwwwwwwwddw
+Server response : 
+Server response :     3: ....#.#.#.#
+Server response :     4: ###.#.#.#.#
+Server response :     5: ....#.#.#.#
+Server response :     6: #####*#.#.#
+Server response :     7: #.....#...#
+Server response :     8: #.#.#######
+Server response :     9: #.#.#......
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+www
+Server response : 
+Server response :     0: ###########
+Server response :     1: ........#..
+Server response :     2: #######.#.#
+Server response :     3: ....#*#.#.#
+Server response :     4: ###.#.#.#.#
+Server response :     5: ....#.#.#.#
+Server response :     6: #####.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssssaaaasswwddssssddwwddddddwwwwwwssddwwddssddddssaassddssssssaassssaaaassaassssssddwwwwddddssddssaassddssaaaassddddddddwwddddssddddwwwwwwddwwwwaaaaaawwssddddssaaaassssaaaaaawwwwddwwssddwwwwaaaassaawwwwddwwddssddddddssddddddwwwwddww
+Server response : 
+Server response :    12: #.#.#.###.#
+Server response :    13: #.#.#...#..
+Server response :    14: ###.###.###
+Server response :    15: ....#*#...#
+Server response :    16: #####.###.#
+Server response :    17: ..#.....#.#
+Server response :    18: #.#.#.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssssssddddddssddssddssssddwwwwwwaawww
+Server response : 
+Server response :    17: #.....#...#
+Server response :    18: #########.#
+Server response :    19: ......#...#
+Server response :    20: #####*#.###
+Server response :    21: ....#.#....
+Server response :    22: #.###.###.#
+Server response :    23: #...#...#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+waaaaaawwwwaawwaaw
+Server response : 
+Server response :     9: ..#...#.#..
+Server response :    10: ###.#.#.###
+Server response :    11: #...#.#....
+Server response :    12: #.#.#*###.#
+Server response :    13: #.#.#...#..
+Server response :    14: ###.###.###
+Server response :    15: ....#.#...#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwwaassaasswwddssssaaaawwwwwwddwww
+Server response : 
+Server response :     3: ....#...#.#
+Server response :     4: ###.###.#.#
+Server response :     5: ....#...#..
+Server response :     6: #####*#####
+Server response :     7: #...#.#....
+Server response :     8: #.###.#####
+Server response :     9: ..#...#...#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddwwaa
+Server response : 
+Server response :     0: ###########
+Server response :     1: ......#....
+Server response :     2: #####.###.#
+Server response :     3: ....#*..#.#
+Server response :     4: ###.###.#.#
+Server response :     5: ....#...#..
+Server response :     6: #####.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwaaaaa
+Server response : 
+Server response :    -2:            
+Server response :    -1:            
+Server response :     0: ###########
+Server response :     1: .....*.....
+Server response :     2: .###.#####.
+Server response :     3: ...#.....#.
+Server response :     4: ########.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaaaaaaddssddaawwddddssddddssaaaaaaaaaawwaawwaaaaaaa
+Server response : 
+Server response :    -2:            
+Server response :    -1:            
+Server response :     0: ###########
+Server response :     1: .#...*.....
+Server response :     2: .#.########
+Server response :     3: .#.#.#.....
+Server response :     4: .#.#.#.#.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaassssssaawwwwwwaaaaaaa
+Server response : 
+Server response :    -2:            
+Server response :    -1:            
+Server response :     0: ###########
+Server response :     1: .....*.....
+Server response :     2: ####.######
+Server response :     3: ...#.....#.
+Server response :     4: ##.#####.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaaaa
+Server response : 
+Server response :    -2:            
+Server response :    -1:            
+Server response :     0: ###########
+Server response :     1: ..#..*.....
+Server response :     2: #.#######.#
+Server response :     3: #.......#..
+Server response :     4: #######.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaddddddssddddssaaa
+Server response : 
+Server response :     2: ####.######
+Server response :     3: ...#.....#.
+Server response :     4: ##.#####.#.
+Server response :     5: .#...*...#.
+Server response :     6: .#########.
+Server response :     7: .....#.....
+Server response :     8: ####.#.#.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaawwaaaaaawwa
+Server response : 
+Server response :    -2:            
+Server response :    -1:            
+Server response :     0: ###########
+Server response :     1: ...#.*.#...
+Server response :     2: .#.#.#.####
+Server response :     3: .#...#.....
+Server response :     4: .##########
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+assaawwaa
+Server response : 
+Server response :    -2:            
+Server response :    -1:            
+Server response :     0: ###########
+Server response :     1: ....#*..#..
+Server response :     2: ###.#.#.#.#
+Server response :     3: #.#.#.#...#
+Server response :     4: #.#.#.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sss
+Server response : 
+Server response :     1: ....#...#..
+Server response :     2: ###.#.#.#.#
+Server response :     3: #.#.#.#...#
+Server response :     4: #.#.#*#####
+Server response :     5: #.#.#.#....
+Server response :     6: #.#.#.#.###
+Server response :     7: #.#.#.#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sss
+Server response : 
+Server response :     4: #.#.#.#####
+Server response :     5: #.#.#.#....
+Server response :     6: #.#.#.#.###
+Server response :     7: #.#.#*#.#..
+Server response :     8: #.#.#.#.#.#
+Server response :     9: #.#.#.#.#.#
+Server response :    10: #.#.#.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sss
+Server response : 
+Server response :     7: #.#.#.#.#..
+Server response :     8: #.#.#.#.#.#
+Server response :     9: #.#.#.#.#.#
+Server response :    10: #.#.#*#.#.#
+Server response :    11: #...#.#.#.#
+Server response :    12: #.###.#.#.#
+Server response :    13: #.#.....#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sssddwwwwwwwwddd
+Server response : 
+Server response :     2: .#.#.#.####
+Server response :     3: .#...#.....
+Server response :     4: .##########
+Server response :     5: .#...*.....
+Server response :     6: .#.#####.#.
+Server response :     7: .#.#...#.#.
+Server response :     8: .#.#.#.####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dddddssddddssssddssssssaawwa
+Server response : 
+Server response :    12: .#.#.#.#.#.
+Server response :    13: .#...#.#.#.
+Server response :    14: ##.#####.#.
+Server response :    15: .#...*.#.#.
+Server response :    16: ######.#.#.
+Server response :    17: .....#...#.
+Server response :    18: .#########.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaawwddw
+Server response : 
+Server response :     9: #.....#.#.#
+Server response :    10: #.###.#.###
+Server response :    11: #.#.#.#...#
+Server response :    12: #.#.#*#.#.#
+Server response :    13: ..#...#.#.#
+Server response :    14: ###.#####.#
+Server response :    15: ..#.....#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwwaaaassssaa
+Server response : 
+Server response :    10: #.#.#.#.###
+Server response :    11: #.#.#.#.#.#
+Server response :    12: #.#.#.#.#.#
+Server response :    13: ..#.#*..#..
+Server response :    14: ###.#####.#
+Server response :    15: #...#...#..
+Server response :    16: #.###.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+www
+Server response : 
+Server response :     7: #.#...#.#..
+Server response :     8: #.#.#.#####
+Server response :     9: #.#.#.#....
+Server response :    10: #.#.#*#.###
+Server response :    11: #.#.#.#.#.#
+Server response :    12: #.#.#.#.#.#
+Server response :    13: ..#.#...#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwwaassssssssaassddssaa
+Server response : 
+Server response :    16: #####.###.#
+Server response :    17: ....#...#..
+Server response :    18: ###.###.#.#
+Server response :    19: ..#.#*..#.#
+Server response :    20: #.#.#.#####
+Server response :    21: #.#.#......
+Server response :    22: #.#.#.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddddddssssaassaa
+Server response : 
+Server response :    24: #.###.###.#
+Server response :    25: #...#.#...#
+Server response :    26: ###.###.###
+Server response :    27: ....#*..#..
+Server response :    28: #####.#####
+Server response :    29: #...#......
+Server response :    30: #.#.###.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddddddssa
+Server response : 
+Server response :    28: .#######.#.
+Server response :    29: .......#.#.
+Server response :    30: ##.###.#.#.
+Server response :    31: .#.#.*.#.#.
+Server response :    32: .###.#####.
+Server response :    33: .#...#.....
+Server response :    34: ##.###.####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+assaassaassaaaaw
+Server response : 
+Server response :    33: #.....#...#
+Server response :    34: #.#####.###
+Server response :    35: #...#...#..
+Server response :    36: ###.#*###.#
+Server response :    37: #...#.....#
+Server response :    38: #.#########
+Server response :    39: ..#........
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddwwddw
+Server response : 
+Server response :    29: #...#......
+Server response :    30: #.#.###.###
+Server response :    31: ..#...#.#..
+Server response :    32: #.###*###.#
+Server response :    33: ..#...#...#
+Server response :    34: ###.###.###
+Server response :    35: #...#...#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+waawwaassa
+Server response : 
+Server response :    28: .###.#####.
+Server response :    29: .#...#...#.
+Server response :    30: ##.###.#.##
+Server response :    31: ...#.*.#...
+Server response :    32: ######.###.
+Server response :    33: .#.....#...
+Server response :    34: .#.#####.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+addssaaaassddssaassa
+Server response : 
+Server response :    36: ####.###.#.
+Server response :    37: .....#...#.
+Server response :    38: .#####.####
+Server response :    39: .#...*.#...
+Server response :    40: ##.#.######
+Server response :    41: ...#.#.....
+Server response :    42: ####.#.####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaassaa
+Server response : 
+Server response :    38: #.###.#####
+Server response :    39: #.#...#....
+Server response :    40: #.#.###.#.#
+Server response :    41: #...#*..#.#
+Server response :    42: #########.#
+Server response :    43: ........#..
+Server response :    44: #######.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ddwwddssssd
+Server response : 
+Server response :    40: ##.#.######
+Server response :    41: ...#.#.....
+Server response :    42: ####.#.####
+Server response :    43: ...#.*.#...
+Server response :    44: ##.#.######
+Server response :    45: .#.#.......
+Server response :    46: ##.########
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dwwddddddddddssssssssddssaassa
+Server response : 
+Server response :    50: ########.#.
+Server response :    51: .....#...#.
+Server response :    52: .#.#.#.####
+Server response :    53: .#.#.*.#...
+Server response :    54: ##.#####.##
+Server response :    55: ...#.......
+Server response :    56: .###.######
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+awwaaaa
+Server response : 
+Server response :    48: #####.#.#.#
+Server response :    49: #.#...#...#
+Server response :    50: #.#.#######
+Server response :    51: ..#.#*....#
+Server response :    52: #.#.#.#.#.#
+Server response :    53: #.#.#.#.#..
+Server response :    54: #.#.###.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sswwddssssaa
+Server response : 
+Server response :    52: #.#.#.#.#.#
+Server response :    53: #.#.#.#.#..
+Server response :    54: #.#.###.###
+Server response :    55: #...#*..#..
+Server response :    56: #.###.###.#
+Server response :    57: #.#.......#
+Server response :    58: #.###.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddddwwdddddd
+Server response : 
+Server response :    52: #.#######.#
+Server response :    53: ..#.......#
+Server response :    54: ###.#######
+Server response :    55: .....*#...#
+Server response :    56: #######.#.#
+Server response :    57: #.......#.#
+Server response :    58: #.#.#####.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aawwddddddwwwwd
+Server response : 
+Server response :    46: .###.#.####
+Server response :    47: .#.#.....#.
+Server response :    48: .#.#####.#.
+Server response :    49: .#.#.*.#.#.
+Server response :    50: .#.#.#.#.#.
+Server response :    51: ...#.#.....
+Server response :    52: ####.######
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssdddd
+Server response : 
+Server response :    48: ###.#.###.#
+Server response :    49: ..#.#.#...#
+Server response :    50: #.#.#.#.###
+Server response :    51: #....*#...#
+Server response :    52: #########.#
+Server response :    53: #.........#
+Server response :    54: #.#######.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwww
+Server response : 
+Server response :    44: #.#.#####.#
+Server response :    45: #.#.....#.#
+Server response :    46: #.#####.###
+Server response :    47: ....#*#....
+Server response :    48: ###.#.###.#
+Server response :    49: ..#.#.#...#
+Server response :    50: #.#.#.#.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssssaawwwwaaaawwaawwwwdddd
+Server response : 
+Server response :    38: #.#.#####.#
+Server response :    39: ....#...#.#
+Server response :    40: #####.#.###
+Server response :    41: #....*#...#
+Server response :    42: #.#######.#
+Server response :    43: #.#...#....
+Server response :    44: #.###.#.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwddssddssd
+Server response : 
+Server response :    40: .#.###.####
+Server response :    41: .#...#.....
+Server response :    42: ####.#####.
+Server response :    43: .#...*...#.
+Server response :    44: .#.#####.#.
+Server response :    45: .#.....#.#.
+Server response :    46: .#####.####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dddsswwaaaaaassddddssddd
+Server response : 
+Server response :    44: ####.#.#.#.
+Server response :    45: ...#.#...#.
+Server response :    46: ##.#####.#.
+Server response :    47: .#...*.#.#.
+Server response :    48: .###.#.#.##
+Server response :    49: .#...#.#.#.
+Server response :    50: .#.#####.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dsswwaassaassddssaaaaaaaas
+Server response : 
+Server response :    51: ..#.#.....#
+Server response :    52: ###.#######
+Server response :    53: ....#......
+Server response :    54: #####*#####
+Server response :    55: #...#......
+Server response :    56: #.#.#.#####
+Server response :    57: ..#.#.....#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddddd
+Server response : 
+Server response :    52: ########.#.
+Server response :    53: .........#.
+Server response :    54: .#######.#.
+Server response :    55: .....*.#.#.
+Server response :    56: .#####.#.#.
+Server response :    57: .....#.#.#.
+Server response :    58: ####.#.#.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dsss
+Server response : 
+Server response :    55: ......#.#.#
+Server response :    56: #####.#.#.#
+Server response :    57: ....#.#.#.#
+Server response :    58: ###.#*#.#.#
+Server response :    59: ..#.#.#.#.#
+Server response :    60: #.#.#.###.#
+Server response :    61: #.#.#.#....
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sss
+Server response : 
+Server response :    58: ###.#.#.#.#
+Server response :    59: ..#.#.#.#.#
+Server response :    60: #.#.#.###.#
+Server response :    61: #.#.#*#....
+Server response :    62: #.#.#.#.###
+Server response :    63: #.#.#...#..
+Server response :    64: #.#######.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddwwddd
+Server response : 
+Server response :    58: .#.#.#.#.##
+Server response :    59: .#.#.#.#.#.
+Server response :    60: .###.###.#.
+Server response :    61: .#...*...#.
+Server response :    62: .#.#######.
+Server response :    63: ...#...#...
+Server response :    64: ####.#.#.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dddwww
+Server response : 
+Server response :    55: #.#...#...#
+Server response :    56: #.#.###.#.#
+Server response :    57: #.#.#...#..
+Server response :    58: #.#.#*#####
+Server response :    59: #.#.#.#.#..
+Server response :    60: #.###.#.#.#
+Server response :    61: ......#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddwwddssd
+Server response : 
+Server response :    54: ######.#.#.
+Server response :    55: .#...#.#.#.
+Server response :    56: ##.#.#.#.##
+Server response :    57: ...#.*.#...
+Server response :    58: .##########
+Server response :    59: .#.#.......
+Server response :    60: .#.#.###.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dwww
+Server response : 
+Server response :    51: ..#.....#..
+Server response :    52: #########.#
+Server response :    53: ....#...#.#
+Server response :    54: #####*#.#.#
+Server response :    55: #...#.#.#.#
+Server response :    56: #.#.#.#.###
+Server response :    57: ..#...#....
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddssssddd
+Server response : 
+Server response :    54: .#.#.#.####
+Server response :    55: .#.#.#...#.
+Server response :    56: .#.#####.#.
+Server response :    57: .#...*.#.#.
+Server response :    58: ######.#.#.
+Server response :    59: .....#...#.
+Server response :    60: ##.#.######
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssddwwwwaaw
+Server response : 
+Server response :    51: ..#.....#..
+Server response :    52: ###.#####.#
+Server response :    53: ..#.#.....#
+Server response :    54: #.#.#*#####
+Server response :    55: #.#.#...#..
+Server response :    56: #.#####.#.#
+Server response :    57: #.....#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddddwwd
+Server response : 
+Server response :    48: .#####.####
+Server response :    49: .#.....#...
+Server response :    50: ##.#####.##
+Server response :    51: ...#.*.#.#.
+Server response :    52: ####.#.#.#.
+Server response :    53: .....#...#.
+Server response :    54: .##########
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssddwwwwdd
+Server response : 
+Server response :    46: #.#.#######
+Server response :    47: ..#.......#
+Server response :    48: #.#######.#
+Server response :    49: ..#..*..#..
+Server response :    50: ###.###.#.#
+Server response :    51: ..#.#.#...#
+Server response :    52: #.#.#.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ddssddwwd
+Server response : 
+Server response :    46: ######.####
+Server response :    47: .....#.....
+Server response :    48: ####.#####.
+Server response :    49: ...#.*...#.
+Server response :    50: ##.#.###.#.
+Server response :    51: .#...#.#.#.
+Server response :    52: .#####.#.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dddsss
+Server response : 
+Server response :    49: #.....#.#..
+Server response :    50: #.###.#.###
+Server response :    51: ..#.#.#....
+Server response :    52: ###.#*#####
+Server response :    53: ....#.#...#
+Server response :    54: #.#.#.#.#.#
+Server response :    55: ..#.#.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sss
+Server response : 
+Server response :    52: ###.#.#####
+Server response :    53: ....#.#...#
+Server response :    54: #.#.#.#.#.#
+Server response :    55: ..#.#*#.#.#
+Server response :    56: ###.#.#.#.#
+Server response :    57: ....#...#.#
+Server response :    58: #########.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddwwwwddsssss
+Server response : 
+Server response :    55: #.#.#.#....
+Server response :    56: #.#.#.#####
+Server response :    57: #...#.#...#
+Server response :    58: #####*#.###
+Server response :    59: ......#....
+Server response :    60: ###########
+Server response :    61: #.........#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+saaaaa
+Server response : 
+Server response :    56: ####.#.#.#.
+Server response :    57: .....#...#.
+Server response :    58: ##########.
+Server response :    59: .....*.....
+Server response :    60: .##########
+Server response :    61: .....#.....
+Server response :    62: ####.#####.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaaaa
+Server response : 
+Server response :    56: #.#######.#
+Server response :    57: #...#.....#
+Server response :    58: ###.#######
+Server response :    59: #.#.#*.....
+Server response :    60: #.#.#.#####
+Server response :    61: ..#.#.....#
+Server response :    62: ###.#####.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssdddds
+Server response : 
+Server response :    59: #..........
+Server response :    60: #.#########
+Server response :    61: #.....#....
+Server response :    62: #####*#####
+Server response :    63: #...#......
+Server response :    64: #.#.#######
+Server response :    65: ..#...#...#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddddd
+Server response : 
+Server response :    60: ###########
+Server response :    61: .#.........
+Server response :    62: .#####.###.
+Server response :    63: .....*.#...
+Server response :    64: ########.##
+Server response :    65: .#...#...#.
+Server response :    66: ##.#.#.###.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dwwdddds
+Server response : 
+Server response :    59: ..#.......#
+Server response :    60: #######.#.#
+Server response :    61: ......#.#.#
+Server response :    62: #.###*#.###
+Server response :    63: ..#.....#..
+Server response :    64: ###.#####.#
+Server response :    65: #...#.....#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddwwwwddssww
+Server response : 
+Server response :    56: ###.#.###.#
+Server response :    57: ..#...#...#
+Server response :    58: #######.###
+Server response :    59: .....*#.#.#
+Server response :    60: ###.#.#.#.#
+Server response :    61: ..#.#.#.#..
+Server response :    62: #.#.###.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaaaaawwddaassddddssssaaaassaas
+Server response : 
+Server response :    63: ......#....
+Server response :    64: #######.###
+Server response :    65: #...#...#..
+Server response :    66: #.#.#*###.#
+Server response :    67: ..#.#.#...#
+Server response :    68: #.#.#.#.###
+Server response :    69: #.#...#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sssaa
+Server response : 
+Server response :    66: ###.#.#.###
+Server response :    67: ....#.#.#..
+Server response :    68: ###.#.#.#.#
+Server response :    69: ..#.#*..#.#
+Server response :    70: #.#.#####.#
+Server response :    71: #.#.#...#..
+Server response :    72: #.#.###.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwwwaassaaa
+Server response : 
+Server response :    64: ##.#.######
+Server response :    65: ...#...#...
+Server response :    66: ##.#.###.#.
+Server response :    67: .#.#.*...#.
+Server response :    68: .#######.#.
+Server response :    69: .#.....#.#.
+Server response :    70: .#.###.#.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+awwddaawwaassaa
+Server response : 
+Server response :    62: #.###.#####
+Server response :    63: ..#...#...#
+Server response :    64: ###.###.#.#
+Server response :    65: ..#..*..#..
+Server response :    66: #.#####.#.#
+Server response :    67: #.#...#.#..
+Server response :    68: #.#.#.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aawwddwwwwwwaaw
+Server response : 
+Server response :    53: ..#...#....
+Server response :    54: ###########
+Server response :    55: #..........
+Server response :    56: #.###*#####
+Server response :    57: #.#.#...#..
+Server response :    58: #.#.###.###
+Server response :    59: #...#.#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddddddwwddssssaaaaddddwwwwwwssaaaaaawwssddddssaaaaaaaaaassssdd
+Server response : 
+Server response :    56: #.#.###.###
+Server response :    57: #.#.#.#...#
+Server response :    58: #.#.#.###.#
+Server response :    59: ..#..*#.#.#
+Server response :    60: #####.#.#.#
+Server response :    61: #...#...#.#
+Server response :    62: #.#.#.###.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddwwssaassa
+Server response : 
+Server response :    60: ######.#.#.
+Server response :    61: .#...#...#.
+Server response :    62: ##.#.#.###.
+Server response :    63: .#.#.*.#...
+Server response :    64: .#.#####.##
+Server response :    65: .#.#...#...
+Server response :    66: .#.#.#.####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+awwaasssss
+Server response : 
+Server response :    63: #...#.#...#
+Server response :    64: #.#.#.#####
+Server response :    65: #.#.#.#...#
+Server response :    66: #.#.#*#.#.#
+Server response :    67: ..#.....#.#
+Server response :    68: #########.#
+Server response :    69: ....#...#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddwwddssss
+Server response : 
+Server response :    66: #.#.#.#####
+Server response :    67: ....#.#...#
+Server response :    68: #####.#.#.#
+Server response :    69: #...#*#.#.#
+Server response :    70: #.#.###.#.#
+Server response :    71: #.#.#...#..
+Server response :    72: #.#.#.#####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwwwaassaaaawwwwaassssa
+Server response : 
+Server response :    64: ##.#.#.#.#.
+Server response :    65: .#.#.#.#.#.
+Server response :    66: .###.#.#.#.
+Server response :    67: ...#.*.#...
+Server response :    68: ##.#.######
+Server response :    69: .#.#.....#.
+Server response :    70: ##.#####.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+assdddds
+Server response : 
+Server response :    67: #...#.....#
+Server response :    68: #.#########
+Server response :    69: #.....#...#
+Server response :    70: #####*#.#.#
+Server response :    71: #...#.#.#.#
+Server response :    72: #.#.###.#.#
+Server response :    73: ..#.....#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+swwaaaawwwww
+Server response : 
+Server response :    61: #.#...#...#
+Server response :    62: #.#.#######
+Server response :    63: ..#...#...#
+Server response :    64: ###.#*#.#.#
+Server response :    65: ..#.#.#.#.#
+Server response :    66: #.###.#.#.#
+Server response :    67: #...#...#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+waasswwwwddwwddssddaawwaaaaaassssaaaas
+Server response : 
+Server response :    61: ......#.#.#
+Server response :    62: #######.#.#
+Server response :    63: #...#.....#
+Server response :    64: #.#.#*#####
+Server response :    65: ..#.#.#...#
+Server response :    66: ###.###.#.#
+Server response :    67: ..#.....#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+swwddwwwwssssddwwwwddddssaassddssssddwwwwddssssddwwwwwwddssddwwwwwwssaawwwwddddssddssssssaassddddsswwwwddssssddddsssss
+Server response : 
+Server response :    69: ....#.#...#
+Server response :    70: ###.#.#####
+Server response :    71: #.#.#.#...#
+Server response :    72: #.#.#*###.#
+Server response :    73: #.#.#.#...#
+Server response :    74: #.#.#.#.#.#
+Server response :    75: ..#.#...#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sssdd
+Server response : 
+Server response :    72: #.#.###.###
+Server response :    73: #.#.#...#..
+Server response :    74: #.#.#.#.#.#
+Server response :    75: #.#..*#.#..
+Server response :    76: #.#########
+Server response :    77: #.#........
+Server response :    78: #.#.#######
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwddsswwwwaaddssaassaawwwwwwwwwwddssssddwwwwddwwddwwaaaaaaaaddddssaaaaaawwaaaawwddddddddddwwwwwwaassssaawwwwwwwwaaaawwaaaaaaw
+Server response : 
+Server response :    43: #.#.....#.#
+Server response :    44: #.#.#####.#
+Server response :    45: #.#.#.....#
+Server response :    46: #.#.#*#####
+Server response :    47: #...#......
+Server response :    48: ###.#######
+Server response :    49: ....#.....#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddddww
+Server response : 
+Server response :    40: ###.###.###
+Server response :    41: ......#...#
+Server response :    42: #####.###.#
+Server response :    43: ....#*#...#
+Server response :    44: #####.#.###
+Server response :    45: #.....#...#
+Server response :    46: #.#######.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwaaaaa
+Server response : 
+Server response :    38: .#.###.###.
+Server response :    39: .#.....#.#.
+Server response :    40: .#######.##
+Server response :    41: .#...*.....
+Server response :    42: .#.#######.
+Server response :    43: .#.#.....#.
+Server response :    44: .#.#.#####.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaassssssddssaaaassaaaasssswwww
+Server response : 
+Server response :    48: ###.#.#.###
+Server response :    49: ..#.#.#.#..
+Server response :    50: ###.#.###.#
+Server response :    51: ....#*....#
+Server response :    52: #####.#####
+Server response :    53: #...#.#....
+Server response :    54: #.#.#.#.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+www
+Server response : 
+Server response :    45: #.#...#.#.#
+Server response :    46: #.#.#.#.#.#
+Server response :    47: ..#.#.#...#
+Server response :    48: ###.#*#.###
+Server response :    49: ..#.#.#.#..
+Server response :    50: ###.#.###.#
+Server response :    51: ....#.....#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwwaassssssaaaa
+Server response : 
+Server response :    48: #########.#
+Server response :    49: #.#.....#.#
+Server response :    50: #.#.#.###.#
+Server response :    51: #...#*....#
+Server response :    52: #.#########
+Server response :    53: ......#...#
+Server response :    54: #######.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwddaaaassaassddddaaaaa
+Server response : 
+Server response :    50: ####.#.#.#.
+Server response :    51: .#...#...#.
+Server response :    52: .#.###.####
+Server response :    53: .#.#.*.....
+Server response :    54: .#.#.######
+Server response :    55: .#.#...#...
+Server response :    56: .#.#.###.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+assddaasssswwwwwwddwwwwssddwwddssddddwwwwww
+Server response : 
+Server response :    42: #.#.#####.#
+Server response :    43: #.#.#.....#
+Server response :    44: #.#.#.#####
+Server response :    45: ..#.#*..#.#
+Server response :    46: ###.#.#.#.#
+Server response :    47: ....#.#.#..
+Server response :    48: #####.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwddddw
+Server response : 
+Server response :    39: ..#.....#..
+Server response :    40: #.#.#.#.###
+Server response :    41: ..#.#.#.#..
+Server response :    42: #####*#.#.#
+Server response :    43: #.....#.#.#
+Server response :    44: #.#####.#.#
+Server response :    45: #...#.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwwddssssssssaasswwwwssddwwwwwwwwwwssaaaasswwddssssaaaassddssssssddddwwddddwwwwwwddddaaaassssaawwwwwwddddddwwssddssssaaaassddddddssssaawwaaaassssaawwaassaaaassddssssaawwaaaawwwwaassssaawwaassaassssaaaawwwwwwwwwwddwwwwwwaaww
+Server response : 
+Server response :    40: #.#######.#
+Server response :    41: #.....#....
+Server response :    42: #####.#.###
+Server response :    43: ....#*#.#..
+Server response :    44: ###.#.#.#.#
+Server response :    45: ..#.#...#.#
+Server response :    46: #.#####.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwaaaawwddwwd
+Server response : 
+Server response :    34: ##.#.#.####
+Server response :    35: ...#.....#.
+Server response :    36: ##########.
+Server response :    37: ...#.*.....
+Server response :    38: .###.######
+Server response :    39: .#...#.....
+Server response :    40: ##.#######.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ddddd
+Server response : 
+Server response :    34: #.#########
+Server response :    35: ....#.....#
+Server response :    36: #####.###.#
+Server response :    37: .....*#...#
+Server response :    38: #######.###
+Server response :    39: #.....#...#
+Server response :    40: #####.###.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwddddssaassdds
+Server response : 
+Server response :    37: ..#...#.#..
+Server response :    38: ###.###.###
+Server response :    39: ..#...#...#
+Server response :    40: #.###*###.#
+Server response :    41: ....#.#...#
+Server response :    42: #####.#.###
+Server response :    43: #...#.#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sssssa
+Server response : 
+Server response :    42: .#####.#.##
+Server response :    43: .#...#.#.#.
+Server response :    44: .#.#.#.#.#.
+Server response :    45: .#.#.*.#.#.
+Server response :    46: .#.#####.#.
+Server response :    47: .#.......#.
+Server response :    48: .#########.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+awwaassssddddddwwwwwwddwwaawwwwddssddddwwdddd
+Server response : 
+Server response :    32: #.###.#.###
+Server response :    33: #.....#.#.#
+Server response :    34: #######.#.#
+Server response :    35: #....*#...#
+Server response :    36: #.###.###.#
+Server response :    37: ..#.#...#.#
+Server response :    38: ###.#.###.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddaassddddwwwwaawwwwdddd
+Server response : 
+Server response :    28: ###.#.#####
+Server response :    29: ....#...#..
+Server response :    30: #######.###
+Server response :    31: #....*.....
+Server response :    32: #.#######.#
+Server response :    33: #.#.#...#.#
+Server response :    34: #.#.#.#.###
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ddddddwwaaddssaasswwaawwaawwwwaawwddddddssaas
+Server response : 
+Server response :    23: #.......#..
+Server response :    24: #.#####.#.#
+Server response :    25: #...#...#.#
+Server response :    26: ###.#*#####
+Server response :    27: #.#.#......
+Server response :    28: #.#.#######
+Server response :    29: ..#...#...#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddddddssssddssa
+Server response : 
+Server response :    30: ##.#.###.##
+Server response :    31: ...#...#...
+Server response :    32: .#####.###.
+Server response :    33: .#...*.#.#.
+Server response :    34: ##.#####.#.
+Server response :    35: .#.....#.#.
+Server response :    36: .#####.#.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaassddddssssssaawwa
+Server response : 
+Server response :    36: ##.#####.#.
+Server response :    37: .#.....#.#.
+Server response :    38: .#####.#.#.
+Server response :    39: ...#.*.#.#.
+Server response :    40: ##.###.#.#.
+Server response :    41: .#...#...#.
+Server response :    42: .###.######
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+addwwaaaaww
+Server response : 
+Server response :    32: #####.#####
+Server response :    33: #...#.#....
+Server response :    34: #.#.###.###
+Server response :    35: #.#..*#....
+Server response :    36: #.###.#####
+Server response :    37: #...#.....#
+Server response :    38: ###.#####.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aawwaassssddssddssddssaassddssddddssssddd
+Server response : 
+Server response :    48: ##.#.######
+Server response :    49: .#.#.......
+Server response :    50: .#.#######.
+Server response :    51: .#...*.#...
+Server response :    52: .#####.#.##
+Server response :    53: .#...#.#...
+Server response :    54: .#.#.#.####
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssssddd
+Server response : 
+Server response :    52: ##.#.#####.
+Server response :    53: .#.#.......
+Server response :    54: .#.#######.
+Server response :    55: .#...*.#...
+Server response :    56: .#####.#.##
+Server response :    57: .#...#...#.
+Server response :    58: .#.#######.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssddwwdd
+Server response : 
+Server response :    52: #####.#####
+Server response :    53: ..........#
+Server response :    54: #####.#####
+Server response :    55: ..#..*#...#
+Server response :    56: #.#.###.#.#
+Server response :    57: #...#...#.#
+Server response :    58: #####.###.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwddddaaaaaaaaaawwdd
+Server response : 
+Server response :    48: #########.#
+Server response :    49: ......#...#
+Server response :    50: #####.#.###
+Server response :    51: ..#..*#...#
+Server response :    52: #.#.#####.#
+Server response :    53: #.#........
+Server response :    54: #.#######.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwaaaaaawwwwdddddd
+Server response : 
+Server response :    42: #.###.#.###
+Server response :    43: ......#....
+Server response :    44: #########.#
+Server response :    45: .....*....#
+Server response :    46: ###########
+Server response :    47: #.........#
+Server response :    48: #########.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ddddwwd
+Server response : 
+Server response :    40: .#########.
+Server response :    41: .#.......#.
+Server response :    42: .#.#####.#.
+Server response :    43: .#...*.#.#.
+Server response :    44: ####.###.##
+Server response :    45: .....#...#.
+Server response :    46: ######.###.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+daaaawwddddddssssaas
+Server response : 
+Server response :    43: #.....#.#..
+Server response :    44: ###.###.###
+Server response :    45: ....#...#.#
+Server response :    46: #####*###.#
+Server response :    47: ....#.#....
+Server response :    48: ###.#.#####
+Server response :    49: #...#.#...#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sss
+Server response : 
+Server response :    46: #####.###.#
+Server response :    47: ....#.#....
+Server response :    48: ###.#.#####
+Server response :    49: #...#*#...#
+Server response :    50: #.###.#.#.#
+Server response :    51: #...#...#.#
+Server response :    52: ###.#####.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddwwddsss
+Server response : 
+Server response :    49: #.#...#.#  
+Server response :    50: #.#.#.#.#  
+Server response :    51: #...#.#.#  
+Server response :    52: #####*#.#  
+Server response :    53: ....#.#.#  
+Server response :    54: #####.#.#  
+Server response :    55: #...#.#.#  
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sss
+Server response : 
+Server response :    52: #####.#.#  
+Server response :    53: ....#.#.#  
+Server response :    54: #####.#.#  
+Server response :    55: #...#*#.#  
+Server response :    56: #.#.#.#.#  
+Server response :    57: ..#.#.#.#  
+Server response :    58: ###.#.#.#  
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sss
+Server response : 
+Server response :    55: #...#.#.#  
+Server response :    56: #.#.#.#.#  
+Server response :    57: ..#.#.#.#  
+Server response :    58: ###.#*#.#  
+Server response :    59: #.#...#.#  
+Server response :    60: #.#####.#  
+Server response :    61: #...#...#  
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+saawwwwaassaasssss
+Server response : 
+Server response :    59: ....#.#.#..
+Server response :    60: #.#.#.#.###
+Server response :    61: #.#.#.#...#
+Server response :    62: #.###*###.#
+Server response :    63: ..#...#...#
+Server response :    64: ###.###.###
+Server response :    65: ....#.....#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+saassaaaassaassssd
+Server response : 
+Server response :    68: .#.#.###.##
+Server response :    69: ...#.#...#.
+Server response :    70: ####.###.##
+Server response :    71: ...#.*.#...
+Server response :    72: ##.###.####
+Server response :    73: ...#...#...
+Server response :    74: .#.#.###.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssaassd
+Server response : 
+Server response :    72: ##.###.####
+Server response :    73: ...#...#...
+Server response :    74: .#.#.###.#.
+Server response :    75: .#.#.*.#.#.
+Server response :    76: ######.#.##
+Server response :    77: .......#...
+Server response :    78: ######.###.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssaaaaaaaas
+Server response : 
+Server response :    75: ..#.#...#.#
+Server response :    76: #.#.#######
+Server response :    77: ..#.#......
+Server response :    78: #.#.#*#####
+Server response :    79: #.#.#...#..
+Server response :    80: ###.#.#.#.#
+Server response :    81: ....#.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddss
+Server response : 
+Server response :    78: #.#.#######
+Server response :    79: #.#...#....
+Server response :    80: #.#.#.#.###
+Server response :    81: ..#.#*#.#..
+Server response :    82: ###.#.###.#
+Server response :    83: #.#.#.....#
+Server response :    84: #.#.#######
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddddwwd
+Server response : 
+Server response :    78: ######.###.
+Server response :    79: .#.......#.
+Server response :    80: .#.#####.#.
+Server response :    81: .#.#.*.#.#.
+Server response :    82: .###.#.#.#.
+Server response :    83: .....#.#.#.
+Server response :    84: ######.###.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dsss
+Server response : 
+Server response :    81: #.#...#.#.#
+Server response :    82: ###.#.#.#.#
+Server response :    83: ....#.#.#.#
+Server response :    84: #####*###.#
+Server response :    85: ....#...#.#
+Server response :    86: ###.###.#.#
+Server response :    87: ..#.#.#....
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddssddd
+Server response : 
+Server response :    84: .###.#.#.#.
+Server response :    85: ...#.#.#.#.
+Server response :    86: ##.#.###.#.
+Server response :    87: .#...*.#.#.
+Server response :    88: .#####.#.##
+Server response :    89: .#...#...#.
+Server response :    90: ##.#.###.#.
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssdds
+Server response : 
+Server response :    87: ....#.#.#..
+Server response :    88: ###.#.###.#
+Server response :    89: ..#...#...#
+Server response :    90: #.###*#.###
+Server response :    91: #.#.#.#...#
+Server response :    92: #.#.#.###.#
+Server response :    93: #.#...#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sssaa
+Server response : 
+Server response :    90: #.#.###.#.#
+Server response :    91: ..#.#.#.#..
+Server response :    92: ###.#.#.###
+Server response :    93: #.#.#*..#.#
+Server response :    94: #.#.#.###.#
+Server response :    95: ..#.#.....#
+Server response :    96: ###.#######
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddddwwssaaaawwwwssddwwwwwwwww
+Server response : 
+Server response :    81: #.#...#...#
+Server response :    82: #.#.#####.#
+Server response :    83: #.#.....#.#
+Server response :    84: #.#.#*#.#.#
+Server response :    85: #.#.#.#.#..
+Server response :    86: #.###.#.###
+Server response :    87: ....#.#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddsssswwwwaaaasswwwwdd
+Server response : 
+Server response :    78: #.#.###.#.#
+Server response :    79: #.#...#.#..
+Server response :    80: #.###.#.###
+Server response :    81: #.#..*#...#
+Server response :    82: #.#.#####.#
+Server response :    83: #.#.....#.#
+Server response :    84: #.#.#.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwaaw
+Server response : 
+Server response :    75: #.#.....#..
+Server response :    76: #.#####.###
+Server response :    77: #...#.#...#
+Server response :    78: ###.#*###.#
+Server response :    79: ..#.#...#.#
+Server response :    80: #.#.###.#.#
+Server response :    81: #.#.#...#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wssddssaassddssssssaawwaawwwwwwwwwwaawwwwdd
+Server response : 
+Server response :    70: ###.#######
+Server response :    71: ..#........
+Server response :    72: #.#####.###
+Server response :    73: ..#..*#....
+Server response :    74: ###.#.#####
+Server response :    75: ..#.#.....#
+Server response :    76: #.#.#####.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+ssddddssddssssddssssd
+Server response : 
+Server response :    82: ####.#.#   
+Server response :    83: ...#.#.#   
+Server response :    84: .#.#.###   
+Server response :    85: .#.#.*.#   
+Server response :    86: .#.###.#   
+Server response :    87: .#.#...#   
+Server response :    88: .###.#.#   
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssaassaassddssd
+Server response : 
+Server response :    90: .#.###.#   
+Server response :    91: .#...#.#   
+Server response :    92: .###.###   
+Server response :    93: .#.#.*.#   
+Server response :    94: ##.###.#   
+Server response :    95: ...#...#   
+Server response :    96: ####.#.#   
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+dssaas
+Server response : 
+Server response :    93: ..#.#...#  
+Server response :    94: ###.###.#  
+Server response :    95: ....#...#  
+Server response :    96: #####*#.#  
+Server response :    97: ..#...#.#  
+Server response :    98: #.#.###.#  
+Server response :    99: ....#...#  
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+saassaaa
+Server response : 
+Server response :    96: ##.#######.
+Server response :    97: .#.....#...
+Server response :    98: .#####.#.##
+Server response :    99: .....*...#.
+Server response :   100: ###########
+Server response :   101:            
+Server response :   102:            
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaaaa
+Server response : 
+Server response :    96: ###.###.###
+Server response :    97: ..#...#....
+Server response :    98: #.###.#####
+Server response :    99: #...#*.....
+Server response :   100: ###########
+Server response :   101:            
+Server response :   102:            
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wwaaw
+Server response : 
+Server response :    93: #.....#.#.#
+Server response :    94: #######.#.#
+Server response :    95: ........#.#
+Server response :    96: #####*###.#
+Server response :    97: ....#...#..
+Server response :    98: #.#.###.###
+Server response :    99: ..#...#....
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddwwssaaaaaaa
+Server response : 
+Server response :    92: ######.###.
+Server response :    93: .....#.....
+Server response :    94: .##########
+Server response :    95: .#...*.....
+Server response :    96: .#.#######.
+Server response :    97: .#.#.....#.
+Server response :    98: ##.###.#.##
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+aaasss
+Server response : 
+Server response :    95: ..#.#......
+Server response :    96: ###.#.#####
+Server response :    97: #...#.#....
+Server response :    98: #.###*###.#
+Server response :    99: #.........#
+Server response :   100: ###########
+Server response :   101:            
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+sddddwwddssddaawwaaaaddssaaaaaaaawwddwww
+Server response : 
+Server response :    91: #.#...#....
+Server response :    92: #.#########
+Server response :    93: #.#.......#
+Server response :    94: #.#.#*#####
+Server response :    95: #...#.#....
+Server response :    96: #####.#.###
+Server response :    97: #.#...#.#..
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+wddddaaaaaassaawwww
+Server response : 
+Server response :    88: #.#######.#
+Server response :    89: #.....E.#..
+Server response :    90: #####.#.###
+Server response :    91: #...#*#...#
+Server response :    92: #.#.#.#####
+Server response :    93: ..#.#.#....
+Server response :    94: #.###.#.#.#
+Server response : 
+Server response : Enter your move(s)>
+
+-------
+
+Server response : 
+Server response :    86: ####.#.####
+Server response :    87: .#...#...#.
+Server response :    88: .#######.##
+Server response :    89: .....*.#...
+Server response :    90: ####.#.###.
+Server response :    91: ...#.#...#.
+Server response :    92: .#.#.######
+Server response : 
+Server response : BINGO! wKKTv4Thr3EnF4dutOd/Ag==|utM0AvNpEiCsu8+nUUSepg==|XIwl05iYqYPqm0ZzshMMnWbi9kmw7uKIAvmjWyRaIBtI4qyhv1qR67feHCOufJTVGoGSWNrhy2+9ob4nkC1+gzHF+SMNk9FpLvJisOsurgf5fT0rPjfNc7zmpxr5f4Gysnh0Jnp/yfhcFJUFdomnpCPqBHA4905XN4FBxkPBJmGN948XZF5rIflklZZVSjfGtcHfsCMru90FWFJlsBs3WK4t2Mffe54WFbZxlNJDzLn+D85K6rgN7T4vaa+HfA5BOKoDGgFTeipHDPoLIZ8ROHEcY+9gd6ZgcJRT2ypmDA0Ywiw8oASCZRzJuWvLTOa9vrLHNqPz495L6hI68rQ6LNyV9+inVo3tvw8WCo8Sm8JqgOhV15lRS2/PlSyZlA3ms0AvGjI1mVXLbZmRQqe8k+EJpP/tcO60GGA8VCZyg/emHB5R5lu5CJRxu4oDcbXPRUrf59xXqQQLR8PsXWZUOy2jZs1rIqm2b6Z5Y8ljXA2UYYWFuXsCaPep8nE1v9cp+IuZZt6ElW0OmBlVfV4HfGuCnuk1XB5JSNrz6CsS5suddr639RKhrp0mYzDe2xi/NoTE4Wb1L1vj9WHf0/xvi/YAF+Wz/W+b+dS6fZIsK0MwU1XlQP7yArITc/q2HggW+ZTyPnPcH7Vt3NNHV+hwW3MeKKzrT/HUxgNcHOrjJQS6u7kOLjk0dFQbJFu7ilBOevgz7IZFOHqOK/L8EVpTbXa9+r+BCwlkaJQGmKnm69LRISz26qiyfm7Y/LNDu3U13G/B9HNuhENU2R0bHz5dL7VXqePUDL8syHM+GKH8mB/+4ErnJV0pVKvroAIpFfrcY6Uk2VJ8PcTrknyohwxbD8xE+9YlNmgUYJsrzizV8RZKav7/l/AhpfAybR2VhZ8/97mu03xKdMvPDNIme5XJJr34K+RNMLJINE5Ar3Cy4VvRiIYLD5+tSylaW+iIvX4t1GGlZ21ryvtFXNBZZADWZ75/oh7mLoJ96zlJ3kM3XGF09oeba8ls1lKFrlBezkmKu6Meljv7XJ+rLFHs4Ww031egXN80GRb6bzL+4ZAA4lvjf7SC0FZMm4jprxJUGV+NGz58Toq+aKwMhomVTkiGe/48YCE5z3PyJ0ZfH4cOl1ESIHAr4DHHmlm7CrnxxZQ+qL+2cyDbMTHKhK6SIToGVGVCw5liqHP9F2hDbehFA/5T5lbfvP63ohYQ5DtHBuHgua048I83kJN9wH40hLG0cm4RQnVRFLjXnA6itDWr24GWkYbTJCc4G2gkjpj0/OJUb2ry3DEegI3QqobxMa4Ollbgs+LgT1ims5h25yLiKUpbD5whhAKecOG5Ouzj7e1CQl1zGBhVYRh5X4+BY359LkdSUTTuutlWELw5Ymh+bjfSDp+dkAoWKay7xs1+OrANiFIcXPO62FkCMM8ytC3YSCNDTLoQR8JjP/Wt6fScNS9nE/lfr/x/x3Rh3FqaqHLmAJnNkGOu2XNpvW7Q0q6V4pa/e8QROwQWN+CCqtv2oS7WdW7yP5LnEjwBshQYwp0qUAfUKf6DSDa4jUeWDibiYQj7Qboj7kjVJ2XJcWHZU1k85Jw/9jdsOPt5EtwrsySF1f+mNIdhIbBGRDYIgBC7RQHvVM463yX6IAq6lsA8cW9Utesut0YvyV1w5l3ESIO6HieB6h37Yjs+y39WUmgXQjv+WOmAT3jHGZ3mf70LYvnun3d62oKQxuABmA/x4NF9akzkN9u8FvFPA0qvGfCfXXvrOhydkB46yCs7PtZgjgZdyRX6/wvvlOtWakVnof/D8P5BW//jyOFMP0aCXdJ3gOKXHrp05dKNxfAONUGxb84fpFg2WtYkvoI8VM1ZVO7r7bKWls1MRDxiqqBxuEqds5Dmg+HgOAMRXjTuudqqGlb+opocFuqd6efW5vI/i50oh6PwfZfRZsQ1lIjoqB8099UA45th6g3xfSbyTR+LIyzl3Y5grybvKxmlZffFCA6ZKMtZ+ofT5QBlKJNaN6hzcTalqGo9AXrgNIC448tUQy+gTzNmr8gHpWJYkkdN7WYiKwCk9poPiT+6TfTqIdXAhM8cuYuVmUWo5rckwoch+l8ZeydVE8qNjlqk6X4Esyy9PmuYi3YNtEuU6VMVA0XusHtZu51GT9o19naoc99Dl6OaWUB7ijVL5ekPE3jRmfMQ/j5WcQDJlsTRz/cePNMc/pzle2bdGXEikZJae/PeDdh5zlrKAUvnqAL61P6Jfy1K6MAkj8pBcv4qwVanlRh5nXaTF7VI+E0vmqvocovZPcLg3EmzlGAsNOHFHtorBz9dcr2mojwTAUrdUSX4Ad+L/3XR3HbLT5ARpYhmTVwxSkpAaC2OhOUGAqpBHZ5FDu7e8pmEWscEZdkc7glLTviokkzbnH8j0gIzonnszcEOKN6rJhWiFpbGwCfkViRu2p1WXswPU67Jx+Y491dvoI5vhsgbnEpX61PgRKblgI80KVEE12SojTY43xpjzjnK84s8tB8XdVWffWW9Gpc47GTIjId7bb0XNZ7wOahG4wEGlZyAboHOhKn39I1oNV1VB/1rx0WMjwUsYa80bHh8UzTr4NMjlYyzR+qIMAHcTOXSO9oQCQQzUq4J/zzG5SXMp8bjO94O4RJ69JxROS8ue72TR1cJtAdRGpnc2mPbhn+XZ8EX7vLgMtx6maEucn9TKNH/Hc91a10EjTFnBm7wrbN+2k6UR6yrVK1jgAikroS1iVEWH46ni5eN5zuhddLsv4k=
+
+-------
+
+
+
+Final Exec Time = 103.12 sec
+
