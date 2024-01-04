@@ -40,6 +40,7 @@ Register successfully.
 ```plaintext
 login <username> <password>
 ```
+
 If there is any missing or redundant parameter:
 Usage: login <username> <password>
 
@@ -64,49 +65,61 @@ Welcome, <username>.
 ```plaintext
 logout
 ```
+
 If there is any missing or redundant parameter
 Usage: logout
+
 If the client has not logged in
 Please login first.
+
 If the client successfully logs out
 Bye, <username>.
-exit
 
 ### exit
 ```plaintext
 exit
 ```
+
 If there is any missing or redundant parameter
 Usage: exit
+
 If the client has not logged out, run the logout command first and then the exit command implicitly. The terminal would show:
 Bye, <username>.
+
 If the exit command works successfully, the connection will be closed.
 
 ### whoami
 ```plaintext
 whoami
 ```
+
 If there is any missing or redundant parameter:
 Usage: whoami
+
 If the client has not logged in:
 Please login first.
+
 Show the username:
 <username>
 
 ### set-status
-
 ```plaintext
 set-status <status>
 ```
+
 <status>: online, offline, busy
 
 If there is any missing or redundant parameter:
 Usage: set-status <status>
+
 If the client has not logged in:
 Please login first.
+
 The status should be online, offline, or busy. If there is any other status:
 set-status failed
+
 The default status for all users is offline:
+
 If setting successfully:
 <username> <status>
 
@@ -119,12 +132,16 @@ list-user
 
 If there is any missing or redundant parameter:
 Usage: list-user
+
 If the client has not logged in:
 Please login first.
+
 List all users and the corresponding status in the server and sort by user names alphabetically.
+```plaintext
 <username 1> <status>
 <username 2> <status>
 ...
+```
 
 ### enter-chat-room
 ```plaintext
@@ -133,27 +150,43 @@ enter-chat-room <number>
 
 If there is any missing or redundant parameter:
 Usage: enter-chat-room <number>
+
 If <number> is not a valid room number (not between 1 to 100)
 Number <number> is not valid.
+
 If the client has not logged in:
 Please login first.
+
 If the chat room does not exist, create a new room and enter this room:
+```plaintext
 Welcome to the public chat room.
 Room number: <number>
 Owner: <creator>
+```
+
 If one client successfully enters the chat room:
 Show the message to all clients in the chat room.
+```plaintext
 <username> had entered the chat room.
+```
+
+
 Show the messages below to the new client.
+```plaintext
 Welcome to the public chat room.
 Room number: <number>
 Owner: <creator>
 <chat_history>
+```
+
 Format of <chat_history>:
+```plaintext
 Chat history is composed of several Records.
 Record 1 + Record 2 + … + Record n
 The format of a Record is
 [<username>]: <message>\n
+```
+
 Only show the latest 10 Records.
 
 :bulb: Every <message> in <chat_history> should also be filtered (see here).
@@ -164,13 +197,18 @@ Show the error message if the input command is not specified:
 Error: Unknown command
 
 ## Chat room commands
+
 ### pin
 ```plaintext
 /pin <message>
 ```
+
 Messages should be sent by TCP packets.
+
 The length of the message can be at most 150 characters.
+
 Send Pin -> [<username>]: <message>\n to all users in the chatroom.
+
 Set the pin message in the chat room.
 
 :bulb: Only one message can be pinned in a chat room. The chat room only keeps the latest pinned message.
@@ -179,14 +217,17 @@ Set the pin message in the chat room.
 ```plaintext
 /delete-pin
 ```
+
 If there is no pin message in the chat room:
 No pin message in chat room <number>
+
 Delete the pin message in the chat room.
 
 ### exit chat room
 ```plaintext
 /exit-chat-room
 ```
+
 Switch to the chat server mode.
 Send the message <username> had left the chat room. to all clients in the chat room.
 
@@ -194,22 +235,30 @@ Send the message <username> had left the chat room. to all clients in the chat r
 ```plaintext
 /list-user
 ```
+
 List all users in this chat room
+```plaintext
 <username> <status>
 <username> <status>
 ...
+```
 
 ### chat message
 ```plaintext
 <message>
 ```
+
 The length of the message can be at most 150 characters.
 Send [<username>]: <message>\n to all users in the chatroom.
 
 :bulb: In our test cases, <message> contains all printable ASCII characters except \0 and \n.
 
 ```plaintext
-A client can use only chat room commands when entering a chat room. The client cannot use all basic commands in a chat room. Input without a leading / is considered a typical message. If a command is not specified in this document, the terminal will show Error: Unknown command .
+A client can use only chat room commands when entering a chat room.
+The client cannot use all basic commands in a chat room.
+Input without a leading / is considered a typical message.
+If a command is not specified in this document,the terminal will show
+Error: Unknown command .
 ```
 
 ## Chat History
