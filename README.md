@@ -1,6 +1,8 @@
 # NYCU-INP
 112上 網路程式設計概論 黃俊穎
 
+The socket template C/C++/Python file can refer to [here](https://github.com/LaiCharlie/NYCU-INP/tree/main/template)
+
 The VM image deployed in the PC classroom can be downloaded from [here](https://drive.google.com/file/d/1OSNwEXR33c0tCBp72y7d-2rSrqDYhbpi/view?usp=sharing). (password : sense) 
 
 **Grading Policy**  
