@@ -1,7 +1,7 @@
 # NYCU-INP
 112上 網路程式設計概論 黃俊穎
 
-The VM image deployed in the PC classroom can be downloaded from [here](https://drive.google.com/file/d/1OSNwEXR33c0tCBp72y7d-2rSrqDYhbpi/view?usp=sharing).
+The VM image deployed in the PC classroom can be downloaded from [here](https://drive.google.com/file/d/1OSNwEXR33c0tCBp72y7d-2rSrqDYhbpi/view?usp=sharing). (password : sense) 
 
 **Grading Policy**  
 #1 Demo onsite: 100% of the points  
