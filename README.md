@@ -1,7 +1,9 @@
 # NYCU-INP
 112上 網路程式設計概論 黃俊穎
 
-lab, hw 的 spec 在各個資料夾的 README.md
+The socket template C/C++/Python file can refer to [here](https://github.com/LaiCharlie/NYCU-INP/tree/main/template)
+
+The VM image deployed in the PC classroom can be downloaded from [here](https://drive.google.com/file/d/1OSNwEXR33c0tCBp72y7d-2rSrqDYhbpi/view?usp=sharing). (password : sense) 
 
 **Grading Policy**  
 #1 Demo onsite: 100% of the points  
@@ -21,7 +23,7 @@ lab, hw 的 spec 在各個資料夾的 README.md
 6.  2023-10-19: [Lab #3](https://github.com/LaiCharlie/NYCU-INP/tree/main/lab3): play with mazes
     
 
-Our next few labs may need the `pwntools` package. Please ensure you have an appropriate python runtime and install the `pwntools` package by following the [instructions](https://md.zoolab.org/s/EleTCdAQ5).
+Our next few labs may need the `pwntools` package. Please ensure you have an appropriate python runtime and install the `pwntools` package by following the [instructions](https://github.com/LaiCharlie/NYCU-INP/tree/main/pwntools).
 
 7.  2023-10-26: [Lab #4](https://github.com/LaiCharlie/NYCU-INP/tree/main/lab4): web client
     
@@ -30,7 +32,7 @@ Our next few labs may need the `pwntools` package. Please ensure you have an app
 9.  2023-11-09: [homework #1](https://github.com/LaiCharlie/NYCU-INP/tree/main/hw1) announcement
     
 
-Our next few labs may need a customized Linux kernel __**if you run docker in Windows**__. Please read the instructions [here](https://md.zoolab.org/s/eHduEC62B) to install a customized Linux kernel for Windows docker.
+Our next few labs may need a customized Linux kernel __**if you run docker in Windows**__. Please read the instructions [here](https://github.com/LaiCharlie/NYCU-INP/tree/main/wsl2) to install a customized Linux kernel for Windows docker.
 
 10.  2023-11-16: [Lab #5](https://github.com/LaiCharlie/NYCU-INP/tree/main/lab5) Traffic shaper
     
