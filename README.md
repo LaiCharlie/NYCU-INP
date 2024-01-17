@@ -1,6 +1,8 @@
 # NYCU-INP
 112上 網路程式設計概論 黃俊穎
 
+The VM image deployed in the PC classroom can be downloaded from [here](https://drive.google.com/file/d/1OSNwEXR33c0tCBp72y7d-2rSrqDYhbpi/view?usp=sharing).
+
 **Grading Policy**  
 #1 Demo onsite: 100% of the points  
 #2 Demo in the next class: 85% of the points.  
